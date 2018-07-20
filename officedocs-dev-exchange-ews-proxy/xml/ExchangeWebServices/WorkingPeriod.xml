@@ -1,0 +1,155 @@
+<Type Name="WorkingPeriod" FullName="ExchangeWebServices.WorkingPeriod">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2b4035a3ed67c15bd9c8561cf6243cdac5a13490" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20603898" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class WorkingPeriod" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit WorkingPeriod extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.WorkingPeriod" />
+  <TypeSignature Language="VB.NET" Value="Public Class WorkingPeriod" />
+  <TypeSignature Language="C++ CLI" Value="public ref class WorkingPeriod" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Le <see cref="T:ExchangeWebServices.WorkingPeriod" /> classe contient la semaine de travail jours et heures de l’utilisateur de boîte aux lettres.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WorkingPeriod ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.WorkingPeriod.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; WorkingPeriod();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Le <see cref="T:ExchangeWebServices.WorkingPeriod" /> constructeur initialise une nouvelle instance de le <see cref="T:ExchangeWebServices.WorkingPeriod" /> classe.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DayOfWeek">
+      <MemberSignature Language="C#" Value="public string DayOfWeek { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DayOfWeek" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.WorkingPeriod.DayOfWeek" />
+      <MemberSignature Language="VB.NET" Value="Public Property DayOfWeek As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DayOfWeek { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Le <see cref="P:ExchangeWebServices.WorkingPeriod.DayOfWeek" /> propriété obtient ou définit la liste des jours ouvrés qui sont planifiés pour l’utilisateur de boîte aux lettres.</summary>
+        <value>Si l’utilisateur de boîte aux lettres a défini les jours qui représentent la semaine de travail, le <see cref="P:ExchangeWebServices.WorkingPeriod.DayOfWeek" /> propriété contient une liste des jours qui fonctionne de l’utilisateur.</value>
+        <remarks>
+          <para>Le <see cref="P:ExchangeWebServices.WorkingPeriod.DayOfWeek" /> propriété peut contenir une des valeurs suivantes :</para>
+          <list type="bullet">
+            <item>
+              <description>dimanche</description>
+            </item>
+            <item>
+              <description>lundi</description>
+            </item>
+            <item>
+              <description>Mardi</description>
+            </item>
+            <item>
+              <description>Mercredi</description>
+            </item>
+            <item>
+              <description>Jeudi</description>
+            </item>
+            <item>
+              <description>vendredi</description>
+            </item>
+            <item>
+              <description>samedi</description>
+            </item>
+          </list>
+          <para>les valeurs de texte sont renvoyés dans la ordre.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndTimeInMinutes">
+      <MemberSignature Language="C#" Value="public int EndTimeInMinutes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 EndTimeInMinutes" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.WorkingPeriod.EndTimeInMinutes" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndTimeInMinutes As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int EndTimeInMinutes { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Le <see cref="P:ExchangeWebServices.WorkingPeriod.EndTimeInMinutes" /> propriété obtient ou définit la fin de la journée de travail pour un utilisateur de boîte aux lettres.</summary>
+        <value>Le <see cref="P:ExchangeWebServices.WorkingPeriod.EndTimeInMinutes" /> propriété renvoie l’heure de fin de la journée de travail exprimée en nombre de minutes se sont écoulées depuis le début de la journée.</value>
+        <remarks>
+          <para>La <see cref="P:ExchangeWebServices.WorkingPeriod.EndTimeInMinutes" /> propriété représente la fin de la journée de travail de l’utilisateur de boîte aux lettres exprimée en nombre de minutes se sont écoulées depuis le début de la journée. Par exemple, une heure de fin de 6 h 00 est exprimée en minutes 1080.</para>
+          <para>La plage de valeurs possibles pour cette propriété est 0 et 1440.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartTimeInMinutes">
+      <MemberSignature Language="C#" Value="public int StartTimeInMinutes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 StartTimeInMinutes" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.WorkingPeriod.StartTimeInMinutes" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartTimeInMinutes As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int StartTimeInMinutes { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Le <see cref="P:ExchangeWebServices.WorkingPeriod.StartTimeInMinutes" /> propriété obtient ou définit le début de la journée de travail pour un utilisateur de boîte aux lettres.</summary>
+        <value>Le <see cref="P:ExchangeWebServices.WorkingPeriod.StartTimeInMinutes" /> propriété renvoie l’heure de début de la journée de travail exprimée en nombre de minutes se sont écoulées depuis le début de la journée.</value>
+        <remarks>
+          <para>La <see cref="P:ExchangeWebServices.WorkingPeriod.StartTimeInMinutes" /> propriété représente le début de la journée de travail de l’utilisateur de boîte aux lettres exprimée en nombre de minutes se sont écoulées depuis le début de la journée. Par exemple, une heure de début de 8 h 00 est exprimée en minutes 480.</para>
+          <para>La plage de valeurs possibles pour cette propriété est 0 et 1440.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,110 @@
+<Type Name="TransitionTargetType" FullName="ExchangeWebServices.TransitionTargetType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="5b89603c599e26e7cbd31c330bd7a669f1c432f7" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20603897" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class TransitionTargetType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit TransitionTargetType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.TransitionTargetType" />
+  <TypeSignature Language="VB.NET" Value="Public Class TransitionTargetType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TransitionTargetType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Le <see cref="T:ExchangeWebServices.TransitionTargetType" /> classe spécifie la cible d’une transition de fuseau horaire.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TransitionTargetType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.TransitionTargetType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TransitionTargetType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Le <see cref="T:ExchangeWebServices.TransitionTargetType" /> constructeur initialise une nouvelle instance de le <see cref="T:ExchangeWebServices.TransitionTargetType" /> classe.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Kind">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.TransitionTargetKindType Kind { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.TransitionTargetKindType Kind" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TransitionTargetType.Kind" />
+      <MemberSignature Language="VB.NET" Value="Public Property Kind As TransitionTargetKindType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::TransitionTargetKindType Kind { ExchangeWebServices::TransitionTargetKindType get(); void set(ExchangeWebServices::TransitionTargetKindType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TransitionTargetKindType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Le <see cref="P:ExchangeWebServices.TransitionTargetType.Kind" /> propriété obtient ou définit une valeur qui indique si la cible de transition de fuseau horaire est une période ou un groupe de transition.</summary>
+        <value>La valeur de la <see cref="P:ExchangeWebServices.TransitionTargetType.Kind" /> est un de la <see cref="T:ExchangeWebServices.TransitionTargetKindType" /> valeurs d’énumération qui indique si la cible de transition de fuseau horaire est une période ou un groupe de transitions de fuseau horaire.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public string Value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Value" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TransitionTargetType.Value" />
+      <MemberSignature Language="VB.NET" Value="Public Property Value As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Value { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlText</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Le <see cref="P:ExchangeWebServices.TransitionTargetType.Value" /> propriété obtient ou définit l’identificateur unique qui correspond à la période ou les transitions de groupe qui est la cible de la transition de fuseau horaire.</summary>
+        <value>La valeur de la <see cref="P:ExchangeWebServices.TransitionTargetType.Value" /> propriété est une chaîne qui représente l’identificateur unique qui correspond à la période ou transitions de groupe qui est la cible de la transition de fuseau horaire</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

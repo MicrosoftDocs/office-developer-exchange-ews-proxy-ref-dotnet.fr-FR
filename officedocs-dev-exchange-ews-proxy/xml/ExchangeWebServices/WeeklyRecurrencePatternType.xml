@@ -1,0 +1,107 @@
+<Type Name="WeeklyRecurrencePatternType" FullName="ExchangeWebServices.WeeklyRecurrencePatternType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c789a66e7d7f26f27a650549300e6c9a4a954265" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20603926" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class WeeklyRecurrencePatternType : ExchangeWebServices.IntervalRecurrencePatternBaseType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit WeeklyRecurrencePatternType extends ExchangeWebServices.IntervalRecurrencePatternBaseType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.WeeklyRecurrencePatternType" />
+  <TypeSignature Language="VB.NET" Value="Public Class WeeklyRecurrencePatternType&#xA;Inherits IntervalRecurrencePatternBaseType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class WeeklyRecurrencePatternType : ExchangeWebServices::IntervalRecurrencePatternBaseType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.IntervalRecurrencePatternBaseType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Le <see cref="T:ExchangeWebServices.WeeklyRecurrencePatternType" /> classe décrit la fréquence, en semaines, dans laquelle un élément est périodique, ainsi que les jours sur lequel l’élément est périodique.</summary>
+    <remarks>
+      <para>Les informations de décalage de fuseau horaire sont perdues si les dates de début et de fin de l’élément périodique principal n’ont pas de date qui est égale à la première occurrence d’une périodicité hebdomadaire.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WeeklyRecurrencePatternType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.WeeklyRecurrencePatternType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; WeeklyRecurrencePatternType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Le <see cref="T:ExchangeWebServices.WeeklyRecurrencePatternType" /> constructeur initialise une nouvelle instance de le <see cref="T:ExchangeWebServices.WeeklyRecurrencePatternType" /> classe.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DaysOfWeek">
+      <MemberSignature Language="C#" Value="public string DaysOfWeek { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DaysOfWeek" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.WeeklyRecurrencePatternType.DaysOfWeek" />
+      <MemberSignature Language="VB.NET" Value="Public Property DaysOfWeek As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DaysOfWeek { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Le <see cref="P:ExchangeWebServices.WeeklyRecurrencePatternType.DaysOfWeek" /> propriété obtient ou définit les jours de la semaine qui se trouvent dans la périodicité hebdomadaire.</summary>
+        <value>Le <see cref="P:ExchangeWebServices.WeeklyRecurrencePatternType.DaysOfWeek" /> propriété renvoie une chaîne qui contient les jours de la semaine pour la périodicité hebdomadaire.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FirstDayOfWeek">
+      <MemberSignature Language="C#" Value="public string FirstDayOfWeek { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FirstDayOfWeek" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.WeeklyRecurrencePatternType.FirstDayOfWeek" />
+      <MemberSignature Language="VB.NET" Value="Public Property FirstDayOfWeek As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FirstDayOfWeek { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Cette propriété renvoie <see cref="T:System.String" />.</value>
+        <remarks>
+          <para>
+            <b>Remarque</b>: ce membre s’applique aux versions d’Exchange commençant par Exchange Server 2010 Service Pack 1 (SP1), notamment Exchange Online.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
