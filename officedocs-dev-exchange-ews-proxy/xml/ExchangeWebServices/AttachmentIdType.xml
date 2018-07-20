@@ -1,0 +1,110 @@
+<Type Name="AttachmentIdType" FullName="ExchangeWebServices.AttachmentIdType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="649c7e766bf50d2fd2f3e12a677d465a527992e4" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20604673" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class AttachmentIdType : ExchangeWebServices.RequestAttachmentIdType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit AttachmentIdType extends ExchangeWebServices.RequestAttachmentIdType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.AttachmentIdType" />
+  <TypeSignature Language="VB.NET" Value="Public Class AttachmentIdType&#xA;Inherits RequestAttachmentIdType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AttachmentIdType : ExchangeWebServices::RequestAttachmentIdType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.RequestAttachmentIdType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Le <see cref="T:ExchangeWebServices.AttachmentIdType" /> classe représente l’identificateur d’élément et la nouvelle clé de modification d’un élément après une pièce jointe a été attachée.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AttachmentIdType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.AttachmentIdType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AttachmentIdType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Le <see cref="T:ExchangeWebServices.AttachmentIdType" /> constructeur initialise une nouvelle instance de le <see cref="T:ExchangeWebServices.AttachmentIdType" /> classe.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RootItemChangeKey">
+      <MemberSignature Language="C#" Value="public string RootItemChangeKey { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RootItemChangeKey" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AttachmentIdType.RootItemChangeKey" />
+      <MemberSignature Language="VB.NET" Value="Public Property RootItemChangeKey As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ RootItemChangeKey { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Le <see cref="P:ExchangeWebServices.AttachmentIdType.RootItemChangeKey" /> propriété obtient ou définit la clé de modification de l’élément racine du magasin à laquelle la pièce jointe est associée.</summary>
+        <value>Le <see cref="P:ExchangeWebServices.AttachmentIdType.RootItemChangeKey" /> propriété renvoie une chaîne qui contient la clé de modification de l’élément racine du magasin à laquelle la pièce jointe est associée.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RootItemId">
+      <MemberSignature Language="C#" Value="public string RootItemId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RootItemId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AttachmentIdType.RootItemId" />
+      <MemberSignature Language="VB.NET" Value="Public Property RootItemId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ RootItemId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Le <see cref="P:ExchangeWebServices.AttachmentIdType.RootItemId" /> propriété obtient ou définit l’identificateur unique de l’élément racine du magasin à laquelle la pièce jointe est associée.</summary>
+        <value>Le <see cref="P:ExchangeWebServices.AttachmentIdType.RootItemId" /> propriété renvoie une chaîne qui contient l’identificateur unique de l’élément racine du magasin à laquelle la pièce jointe est associée.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,64 @@
+<Type Name="FindFolderResponseType" FullName="ExchangeWebServices.FindFolderResponseType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9c3a45f0dbc406c1fd1ef980a71462ed3f9d951f" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20604510" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class FindFolderResponseType : ExchangeWebServices.BaseResponseMessageType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit FindFolderResponseType extends ExchangeWebServices.BaseResponseMessageType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.FindFolderResponseType" />
+  <TypeSignature Language="VB.NET" Value="Public Class FindFolderResponseType&#xA;Inherits BaseResponseMessageType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FindFolderResponseType : ExchangeWebServices::BaseResponseMessageType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseResponseMessageType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Le <see cref="T:ExchangeWebServices.FindFolderResponseType" /> classe représente une réponse à une <see cref="M:ExchangeWebServices.ExchangeServiceBinding.FindFolder(ExchangeWebServices.FindFolderType)" /> appel de méthode.</summary>
+    <remarks>
+      <para>Pour obtenir un exemple qui utilise le <see cref="T:ExchangeWebServices.FindFolderResponseType" /> de classe, voir <see cref="T:ExchangeWebServices.FindFolderType" />.</para>
+      <para>Les <see cref="T:ExchangeWebServices.FindFolderResponseType" /> est retourné par la <see cref="M:ExchangeWebServices.ExchangeServiceBinding.FindFolder(ExchangeWebServices.FindFolderType)" /> méthode.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FindFolderResponseType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.FindFolderResponseType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FindFolderResponseType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Le <see cref="T:ExchangeWebServices.FindFolderResponseType" /> constructeur initialise une nouvelle instance de le <see cref="T:ExchangeWebServices.FindFolderResponseType" /> classe.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

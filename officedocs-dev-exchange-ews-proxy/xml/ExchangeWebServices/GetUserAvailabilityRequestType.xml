@@ -1,0 +1,306 @@
+<Type Name="GetUserAvailabilityRequestType" FullName="ExchangeWebServices.GetUserAvailabilityRequestType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="fdf919a438345221bd5683cb51c4858b83cac9fa" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20605383" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class GetUserAvailabilityRequestType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GetUserAvailabilityRequestType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetUserAvailabilityRequestType" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetUserAvailabilityRequestType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetUserAvailabilityRequestType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Le <see cref="T:ExchangeWebServices.GetUserAvailabilityRequestType" /> classe représente une opération pour obtenir les informations de disponibilité pour un utilisateur.</summary>
+    <remarks>
+      <para>L’ordre dans lequel les boîtes aux lettres sont ajoutées à la demande représente l’ordre dans les boîtes aux lettres informations sont reçues dans la réponse.</para>
+      <para />
+    </remarks>
+    <example>
+      <para>L’exemple de code suivant montre une requête GetUserAvailability qui inclut les éléments suivants :</para>
+      <list type="number">
+        <item>
+          <description>Une fenêtre de temps pour les données et de disponibilité incluant dès aujourd'hui et demain.</description>
+        </item> Demande de 
+        <item><description>A détaillée et fusionnées et de disponibilité des informations pour les événements de calendrier pour chaque boîte aux lettres. Cet exemple montre une demande pour plus d’informations. Toutefois, les informations renvoyées peuvent varier en fonction des droits de l’appelant pour afficher les informations de calendrier pour les autres boîtes aux lettres.</description></item> Intervalle de 
+        <item><description>défini pour lequel les données fusionnées et de disponibilité doit être renvoyée ; dans ce cas, 30 minutes. Ignoré si les données de disponibilité fusionnées ne sont pas demandées.</description></item><item><description>Une définition de seuil indiquant que les suggérés où sont libres 75 % des participants de la réunion est considérée comme une heure de réunion bonne.</description></item><item><description>Une fenêtre d’heures de réunions suggéré qui inclut dès aujourd'hui et demain.</description></item><item><description>A défini le nombre maximal d’heures chômées fois réunion proposée par jour ; dans ce cas, deux.</description></item><item><description>Un nombre maximal de tentatives de réunion proposée par jour ; dans ce cas, 10.</description></item><item><description>Un intervalle pour suggérés horaires de 30 minutes pour la réunion.</description></item><item><description>Un minimum de temps de bon de réunion.</description></item><item><description>Quatre boîtes aux lettres pour interroger pour les informations de disponibilité et suggéré aux heures de réunion.</description></item><item><description>Une application cliente qui a un paramètre régional dans le fuseau horaire Pacifique (PST) et qui observe l’heure d’été.</description></item></list>
+      <para>Le code exemple renvoie les informations de disponibilité pour chaque boîte aux lettres jusqu'à ce que l’appelant est autorisé à afficher ces données. Elle retourne également un ensemble d’heures de réunion proposée qui sont organisées par jour et indique la disponibilité des comptes de boîte aux lettres identifié.</para>
+      <code>static void GetUserAvailability(ExchangeServiceBinding esb)
+{
+    // Identify the options for comparing free/busy information.
+    FreeBusyViewOptionsType fbViewOptions = new FreeBusyViewOptionsType();
+    fbViewOptions.TimeWindow = new Duration();
+    fbViewOptions.TimeWindow.StartTime = DateTime.Today;
+    fbViewOptions.TimeWindow.EndTime = DateTime.Today.AddDays(2);
+    fbViewOptions.RequestedView = FreeBusyViewType.DetailedMerged;
+    fbViewOptions.RequestedViewSpecified = true;
+    fbViewOptions.MergedFreeBusyIntervalInMinutes = 30;
+    fbViewOptions.MergedFreeBusyIntervalInMinutesSpecified = true;
+
+    // Define the suggestions view.
+    SuggestionsViewOptionsType sugViewOptions = new SuggestionsViewOptionsType();
+    sugViewOptions.GoodThreshold = 25;
+    sugViewOptions.GoodThresholdSpecified = true;
+    sugViewOptions.DetailedSuggestionsWindow = new Duration();
+    sugViewOptions.DetailedSuggestionsWindow.StartTime = DateTime.Today;
+    sugViewOptions.DetailedSuggestionsWindow.EndTime = DateTime.Today.AddDays(2);
+    sugViewOptions.MaximumNonWorkHourResultsByDay = 2;
+    sugViewOptions.MaximumNonWorkHourResultsByDaySpecified = true;
+    sugViewOptions.MaximumResultsByDay = 10;
+    sugViewOptions.MaximumResultsByDaySpecified = true;
+    sugViewOptions.MeetingDurationInMinutes = 30;
+    sugViewOptions.MeetingDurationInMinutesSpecified = true;
+    sugViewOptions.MinimumSuggestionQuality = SuggestionQuality.Good;
+    sugViewOptions.MinimumSuggestionQualitySpecified = true;
+
+    // Identify the user mailboxes for which to review free/busy data.
+    EmailAddress emailAddress0 = new EmailAddress();
+    EmailAddress emailAddress1 = new EmailAddress();
+    EmailAddress emailAddress2 = new EmailAddress();
+    EmailAddress emailAddress3 = new EmailAddress();
+    emailAddress0.Address = "user0@contoso.com";
+    emailAddress1.Address = "user1@contoso.com";
+    emailAddress2.Address = "user2@contoso.com";
+    emailAddress3.Address = "user3@contoso.com";
+
+    MailboxData[] mailboxes = new MailboxData[4];
+    mailboxes[0] = new MailboxData();
+    mailboxes[0].Email = emailAddress0;
+    mailboxes[0].ExcludeConflicts = false;
+    mailboxes[1] = new MailboxData();
+    mailboxes[1].Email = emailAddress1;
+    mailboxes[1].ExcludeConflicts = false;
+    mailboxes[2] = new MailboxData();
+    mailboxes[2].Email = emailAddress2;
+    mailboxes[2].ExcludeConflicts = false;
+    mailboxes[3] = new MailboxData();
+    mailboxes[3].Email = emailAddress3;
+    mailboxes[3].ExcludeConflicts = false;
+
+    // Make the request.
+    GetUserAvailabilityRequestType &lt;span class="label"&gt;request&lt;/span&gt; = new GetUserAvailabilityRequestType();
+
+    // Set the time zone of the request.
+    &lt;span class="label"&gt;request&lt;/span&gt;.TimeZone = new SerializableTimeZone();
+    &lt;span class="label"&gt;request&lt;/span&gt;.TimeZone.Bias = 480;
+    &lt;span class="label"&gt;request&lt;/span&gt;.TimeZone.StandardTime = new SerializableTimeZoneTime();
+    &lt;span class="label"&gt;request&lt;/span&gt;.TimeZone.StandardTime.Bias = 0;
+    &lt;span class="label"&gt;request&lt;/span&gt;.TimeZone.StandardTime.DayOfWeek = DayOfWeekType.Sunday.ToString();
+    &lt;span class="label"&gt;request&lt;/span&gt;.TimeZone.StandardTime.DayOrder = 1;
+    &lt;span class="label"&gt;request&lt;/span&gt;.TimeZone.StandardTime.Month = 11;
+    &lt;span class="label"&gt;request&lt;/span&gt;.TimeZone.StandardTime.Time = "02:00:00";
+    &lt;span class="label"&gt;request&lt;/span&gt;.TimeZone.DaylightTime = new SerializableTimeZoneTime();
+    &lt;span class="label"&gt;request&lt;/span&gt;.TimeZone.DaylightTime.Bias = -60;
+    &lt;span class="label"&gt;request&lt;/span&gt;.TimeZone.DaylightTime.DayOfWeek = DayOfWeekType.Sunday.ToString();
+    &lt;span class="label"&gt;request&lt;/span&gt;.TimeZone.DaylightTime.DayOrder = 2;
+    &lt;span class="label"&gt;request&lt;/span&gt;.TimeZone.DaylightTime.Month = 3;
+    &lt;span class="label"&gt;request&lt;/span&gt;.TimeZone.DaylightTime.Time = "02:00:00";
+
+    // Add the mailboxes to the request.
+    &lt;span class="label"&gt;request&lt;/span&gt;.MailboxDataArray = mailboxes;
+
+    // Add the free/busy view options to the request.
+    &lt;span class="label"&gt;request&lt;/span&gt;.FreeBusyViewOptions = fbViewOptions;
+
+    // Add the suggested view options to the request.
+    &lt;span class="label"&gt;request&lt;/span&gt;.SuggestionsViewOptions = sugViewOptions;
+
+    try
+    {
+        // Send the request and get the response.
+        GetUserAvailabilityResponseType response = esb.GetUserAvailability(&lt;span class="label"&gt;request&lt;/span&gt;);
+
+        // Access free/busy information.
+        if (response.FreeBusyResponseArray.Length &amp;lt; 1)
+        {
+            throw new Exception("No free/busy response data available.");
+        }
+        else
+        {
+            foreach (FreeBusyResponseType fbrt in response.FreeBusyResponseArray)
+            {
+                if (fbrt.ResponseMessage.ResponseClass == ResponseClassType.Error)
+                {
+                    Console.WriteLine(string.Format("Error: {0}", fbrt.ResponseMessage.MessageText));
+                }
+                else
+                {
+                    // TODO: Get the free/busy data and working hours.
+                    FreeBusyView fbv = fbrt.FreeBusyView;
+                }
+            }
+        }
+
+        // Access suggested meeting times.
+        SuggestionDayResult[] sdra = response.SuggestionsResponse.SuggestionDayResultArray;
+
+        if (sdra.Length &amp;lt; 1)
+        {
+            throw new Exception("No suggested meeting times available.");
+        }
+        else
+        {
+            foreach (SuggestionDayResult sdr in sdra)
+            { 
+                // TODO: Get the suggested meeting times for each day.
+            }
+        }
+    }
+    catch (Exception e)
+    {
+        // TODO: Error processing.
+        Console.WriteLine(e.Message);
+    }
+}</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetUserAvailabilityRequestType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.GetUserAvailabilityRequestType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetUserAvailabilityRequestType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Le <see cref="T:ExchangeWebServices.GetUserAvailabilityRequestType" /> constructeur initialise une instance de le <see cref="T:ExchangeWebServices.GetUserAvailabilityRequestType" /> classe.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FreeBusyViewOptions">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.FreeBusyViewOptionsType FreeBusyViewOptions { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.FreeBusyViewOptionsType FreeBusyViewOptions" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetUserAvailabilityRequestType.FreeBusyViewOptions" />
+      <MemberSignature Language="VB.NET" Value="Public Property FreeBusyViewOptions As FreeBusyViewOptionsType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::FreeBusyViewOptionsType ^ FreeBusyViewOptions { ExchangeWebServices::FreeBusyViewOptionsType ^ get(); void set(ExchangeWebServices::FreeBusyViewOptionsType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FreeBusyViewOptionsType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Le <see cref="P:ExchangeWebServices.GetUserAvailabilityRequestType.FreeBusyViewOptions" /> propriété obtient ou définit les options d’affichage et de disponibilité pour une requête de disponibilité. Cette propriété est facultative, sauf si la <see cref="P:ExchangeWebServices.GetUserAvailabilityRequestType.SuggestionsViewOptions" /> propriété n’est pas définie. Il s’agit d’une propriété en lecture-écriture.</summary>
+        <value>La propriété <see cref="P:ExchangeWebServices.GetUserAvailabilityRequestType.FreeBusyViewOptions" /> renvoie un objet <see cref="T:ExchangeWebServices.FreeBusyViewOptionsType" />.</value>
+        <remarks>
+          <para>Cette propriété est requise si le <see cref="P:ExchangeWebServices.GetUserAvailabilityRequestType.SuggestionsViewOptions" /> propriété n’est pas définie.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailboxDataArray">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.MailboxData[] MailboxDataArray { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.MailboxData[] MailboxDataArray" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetUserAvailabilityRequestType.MailboxDataArray" />
+      <MemberSignature Language="VB.NET" Value="Public Property MailboxDataArray As MailboxData()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::MailboxData ^&gt; ^ MailboxDataArray { cli::array &lt;ExchangeWebServices::MailboxData ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::MailboxData ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MailboxData[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Le <see cref="P:ExchangeWebServices.GetUserAvailabilityRequestType.MailboxDataArray" /> propriété obtient ou définit la liste des boîtes aux lettres pour rechercher une requête de disponibilité.</summary>
+        <value>Le <see cref="P:ExchangeWebServices.GetUserAvailabilityRequestType.MailboxDataArray" /> propriété retourne un <see cref="T:ExchangeWebServices.MailboxData" /> tableau.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SuggestionsViewOptions">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SuggestionsViewOptionsType SuggestionsViewOptions { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.SuggestionsViewOptionsType SuggestionsViewOptions" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetUserAvailabilityRequestType.SuggestionsViewOptions" />
+      <MemberSignature Language="VB.NET" Value="Public Property SuggestionsViewOptions As SuggestionsViewOptionsType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::SuggestionsViewOptionsType ^ SuggestionsViewOptions { ExchangeWebServices::SuggestionsViewOptionsType ^ get(); void set(ExchangeWebServices::SuggestionsViewOptionsType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SuggestionsViewOptionsType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Le <see cref="P:ExchangeWebServices.GetUserAvailabilityRequestType.SuggestionsViewOptions" /> propriété obtient ou définit les options de réunion suggestion des informations pour une requête de disponibilité. Cette propriété est facultative, sauf si la <see cref="P:ExchangeWebServices.GetUserAvailabilityRequestType.FreeBusyViewOptions" /> propriété n’est pas définie. Il s’agit d’une propriété en lecture-écriture.</summary>
+        <value>La propriété <see cref="P:ExchangeWebServices.GetUserAvailabilityRequestType.SuggestionsViewOptions" /> renvoie un objet <see cref="T:ExchangeWebServices.SuggestionsViewOptionsType" />.</value>
+        <remarks>
+          <para>Cette propriété est requise si le <see cref="P:ExchangeWebServices.GetUserAvailabilityRequestType.FreeBusyViewOptions" /> propriété n’est pas définie.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TimeZone">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SerializableTimeZone TimeZone { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.SerializableTimeZone TimeZone" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetUserAvailabilityRequestType.TimeZone" />
+      <MemberSignature Language="VB.NET" Value="Public Property TimeZone As SerializableTimeZone" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::SerializableTimeZone ^ TimeZone { ExchangeWebServices::SerializableTimeZone ^ get(); void set(ExchangeWebServices::SerializableTimeZone ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SerializableTimeZone</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Le <see cref="P:ExchangeWebServices.GetUserAvailabilityRequestType.TimeZone" /> propriété obtient ou définit les informations de fuseau horaire du client. Cela inclut la transition entre heure standard et l’heure d’été.</summary>
+        <value>La propriété <see cref="P:ExchangeWebServices.GetUserAvailabilityRequestType.TimeZone" /> renvoie un objet <see cref="T:ExchangeWebServices.SerializableTimeZone" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,137 @@
+<Type Name="DefaultShapeNamesType" FullName="ExchangeWebServices.DefaultShapeNamesType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f097d199d775568bbae3cc049b8b1c1fc0157ffb" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20605199" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum DefaultShapeNamesType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed DefaultShapeNamesType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.DefaultShapeNamesType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DefaultShapeNamesType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class DefaultShapeNamesType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Le <see cref="T:ExchangeWebServices.DefaultShapeNamesType" /> énumération identifie les jeux de propriétés à retourner dans une réponse de l’élément ou le dossier standard.</summary>
+    <remarks>
+      <para>Cette énumération est utilisée par la <see cref="P:ExchangeWebServices.ItemResponseShapeType.BaseShape" /> propriété de la <see cref="T:ExchangeWebServices.ItemResponseShapeType" /> objet et le <see cref="P:ExchangeWebServices.FolderResponseShapeType.BaseShape" /> propriété de la <see cref="T:ExchangeWebServices.FolderResponseShapeType" /> objet.</para>
+      <para>Les propriétés qui sont renvoyées par les formes AllProperties, par défaut et IdOnly peuvent être augmentées par les propriétés qui sont définies par la propriété AdditionalProperties sur le <see cref="T:ExchangeWebServices.ItemResponseShapeType" /> et <see cref="T:ExchangeWebServices.FolderResponseShapeType" /> objets.</para>
+      <para>Le tableau suivant répertorie les propriétés qui sont renvoyées pour chaque dossier lors de la <see cref="F:ExchangeWebServices.DefaultShapeNamesType.Default" /> propriétés sont retournées pour une réponse de dossier. Tous les sous-dossiers d’un dossier donné sont retournés dans l’ordre par un nom.</para>
+      <para>Propriétés par défaut</para>
+      <list type="table">
+        <item>
+          <term>Boîte de réception</term>
+          <description>FolderId, nom complet, lus, nombre total, count sous-dossier</description>
+        </item>
+        <item>
+          <term>Contacts</term>
+          <description>FolderId, nom d’affichage, nombre total, count sous-dossier</description>
+        </item>
+        <item>
+          <term>calendrier</term>
+          <description>FolderId , nom d’affichage, count sous-dossier</description>
+        </item>
+        <item>
+          <term>Brouillons</term>
+          <description>FolderId, nom complet, lus, nombre total, count sous-dossier</description>
+        </item>
+        <item>
+          <term>Éléments supprimés</term>
+          <description>FolderId, nom complet, lus, nombre total, sous-dossier Count</description>
+        </item>
+        <item>
+          <term>autres dossiers</term>
+          <description>FolderId, nom complet, lus, nombre total, count sous-dossier</description>
+        </item>
+        <item>
+          <term>boîte d’envoi</term>
+          <description>FolderId, nom complet, lus, nombre total, count sous-dossier</description>
+        </item>
+        <item>
+          <term>Tâches</term>
+          <description>Id de dossier, nom complet, au-delà d’échéance count, nombre total, count sous-dossier</description>
+        </item>
+        <item>
+          <term>Notes</term>
+          <description>FolderId, nom d’affichage, nombre total, count sous-dossier</description>
+        </item>
+      </list>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllProperties">
+      <MemberSignature Language="C#" Value="AllProperties" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DefaultShapeNamesType AllProperties = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DefaultShapeNamesType.AllProperties" />
+      <MemberSignature Language="VB.NET" Value="AllProperties" />
+      <MemberSignature Language="C++ CLI" Value="AllProperties" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DefaultShapeNamesType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Retourne toutes les propriétés qui sont définies pour la forme AllProperties. Cette option ne retourne toutes les propriétés disponibles pour un élément ou un dossier.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="Default" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DefaultShapeNamesType Default = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DefaultShapeNamesType.Default" />
+      <MemberSignature Language="VB.NET" Value="Default" />
+      <MemberSignature Language="C++ CLI" Value="Default" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DefaultShapeNamesType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Renvoie un ensemble de propriétés qui sont définies par défaut pour l’élément ou d’un dossier. Consultez le tableau plus loin dans cette rubrique pour plus d’informations sur les propriétés qui sont renvoyées pour les dossiers.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IdOnly">
+      <MemberSignature Language="C#" Value="IdOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DefaultShapeNamesType IdOnly = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DefaultShapeNamesType.IdOnly" />
+      <MemberSignature Language="VB.NET" Value="IdOnly" />
+      <MemberSignature Language="C++ CLI" Value="IdOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DefaultShapeNamesType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Renvoie uniquement l’élément ou le dossier ID de.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,234 @@
+<Type Name="NotificationType" FullName="ExchangeWebServices.NotificationType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c64c9f738d6bce577ddb201370f9658d52c88607" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20605300" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class NotificationType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit NotificationType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.NotificationType" />
+  <TypeSignature Language="VB.NET" Value="Public Class NotificationType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class NotificationType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Le <see cref="T:ExchangeWebServices.NotificationType" /> classe contient des informations sur l’abonnement et les événements qui se sont produites depuis la dernière notification.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public NotificationType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.NotificationType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; NotificationType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Le <see cref="T:ExchangeWebServices.NotificationType" /> constructeur initialise une nouvelle instance de le <see cref="T:ExchangeWebServices.NotificationType" /> classe.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Items">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BaseNotificationEventType[] Items { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BaseNotificationEventType[] Items" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.NotificationType.Items" />
+      <MemberSignature Language="VB.NET" Value="Public Property Items As BaseNotificationEventType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::BaseNotificationEventType ^&gt; ^ Items { cli::array &lt;ExchangeWebServices::BaseNotificationEventType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::BaseNotificationEventType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlChoiceIdentifier("ItemsElementName")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("ModifiedEvent", typeof(ExchangeWebServices.ModifiedEventType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("CopiedEvent", typeof(ExchangeWebServices.MovedCopiedEventType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("NewMailEvent", typeof(ExchangeWebServices.BaseObjectChangedEventType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("MovedEvent", typeof(ExchangeWebServices.MovedCopiedEventType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("StatusEvent", typeof(ExchangeWebServices.BaseNotificationEventType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("CreatedEvent", typeof(ExchangeWebServices.BaseObjectChangedEventType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("DeletedEvent", typeof(ExchangeWebServices.BaseObjectChangedEventType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("FreeBusyChangedEvent", typeof(ExchangeWebServices.BaseObjectChangedEventType))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BaseNotificationEventType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Le <see cref="P:ExchangeWebServices.NotificationType.Items" /> propriété obtient ou définit un tableau d’éléments.</summary>
+        <value>Le <see cref="P:ExchangeWebServices.NotificationType.Items" /> propriété renvoie un tableau qui contient les éléments du type <see cref="T:ExchangeWebServices.BaseNotificationEventType" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemsElementName">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ItemsChoiceType[] ItemsElementName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.ItemsChoiceType[] ItemsElementName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.NotificationType.ItemsElementName" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemsElementName As ItemsChoiceType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::ItemsChoiceType&gt; ^ ItemsElementName { cli::array &lt;ExchangeWebServices::ItemsChoiceType&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::ItemsChoiceType&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("ItemsElementName")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Le <see cref="P:ExchangeWebServices.NotificationType.ItemsElementName" /> propriété obtient ou définit un tableau d’éléments du type ItemsChoiceType3 qui spécifie le type de réponse pour chaque élément correspondant dans la propriété Items.</summary>
+        <value>Le <see cref="P:ExchangeWebServices.NotificationType.ItemsElementName" /> propriété renvoie un tableau des valeurs d’énumération ItemsChoiceType2 indiquant le type d’objet dans les <a href="ms-help://MS.ExchangeServerMSDN.v1.en/EWSMRef/html/a93ba4ba-988d-48df-824e-6b338d2aaca7.htm">éléments</a></value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MoreEvents">
+      <MemberSignature Language="C#" Value="public bool MoreEvents { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MoreEvents" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.NotificationType.MoreEvents" />
+      <MemberSignature Language="VB.NET" Value="Public Property MoreEvents As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MoreEvents { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Le <see cref="P:ExchangeWebServices.NotificationType.MoreEvents" /> propriété obtient ou définit une valeur qui indique la présence de plusieurs événements pour être remis au client dans la file d’attente.</summary>
+        <value>Le <see cref="P:ExchangeWebServices.NotificationType.MoreEvents" /> propriété renvoie <b>la valeur true</b> si plusieurs événements existent dans la file d’attente pour être remis au client ; dans le cas contraire, la propriété renvoie la <b>valeur false</b>.</value>
+        <remarks>
+          <para>Pour les notifications de type Pull, la valeur <b>true</b> dans cet élément indique au client qu’une autre demande GetEvents doit être émise pour obtenir les autres événements. En supposant que les spécifications du client nécessitent une latence minimale pour les notifications d’événement, demandes GetEvents devraient continuer à la suite, jusqu'à ce qu’un <b>faux</b>valeur MoreEvents est retourné.</para>
+          <para>Pour envoyer les notifications, une valeur <b>true</b> pour MoreEvents indique au client qu’un autre notification demande sera envoyée au client pour fournir les autres événements. Similaire aux notifications de type Pull, ces demandes suivis continuera successivement jusqu'à ce que la file d’attente sur le serveur d’accès au Client est vide.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MoreEventsSpecified">
+      <MemberSignature Language="C#" Value="public bool MoreEventsSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MoreEventsSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.NotificationType.MoreEventsSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property MoreEventsSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MoreEventsSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Cette propriété renvoie <see cref="T:System.Boolean" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PreviousWatermark">
+      <MemberSignature Language="C#" Value="public string PreviousWatermark { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PreviousWatermark" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.NotificationType.PreviousWatermark" />
+      <MemberSignature Language="VB.NET" Value="Public Property PreviousWatermark As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PreviousWatermark { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Le <see cref="P:ExchangeWebServices.NotificationType.PreviousWatermark" /> propriété obtient ou définit la limite du dernier événement qui a été correctement transmis au client pour l’abonnement.</summary>
+        <value>Le <see cref="P:ExchangeWebServices.NotificationType.PreviousWatermark" /> propriété renvoie une valeur de type string qui contient le dernier événement a été correctement transmis.</value>
+        <remarks>
+          <para>PreviousWatermark la propriété est utile pour le client lors de la détermination de la dernière notification réussie. Par exemple, si un abonnement a trois événements avec des filigranes 1, 2 et 3, et la prochaine notification est envoyée avec la valeur PreviousWatermark 3, le client peut comparer cette valeur à la limite supérieure de la dernière notification reçue. Cela permet au client d’assurer la continuité des événements.</para>
+          <para>Pour les clients push, le PreviousWatermark est comparé à la limite connue dernière locale, côté client. Si les valeurs sont différentes, le client a manqué une notification d’événement et doit rétablir un abonnement à l’aide de la dernière filigrane local. Par exemple, si un client push reçoit trois événements pour un abonnement avec filigranes 1, 2 et 3, et la notification suivante contient une valeur PreviousWatermark 5, le client a manqué au moins une notification et doit créer un nouvel abonnement, en passant 3 comme le filigrane.</para>
+          <para>Pour les clients de l’extraction, la valeur de PreviousWatermark sera la même que la limite est incluse par le client lors de l’appel GetEvents.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubscriptionId">
+      <MemberSignature Language="C#" Value="public string SubscriptionId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SubscriptionId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.NotificationType.SubscriptionId" />
+      <MemberSignature Language="VB.NET" Value="Public Property SubscriptionId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SubscriptionId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Le <see cref="P:ExchangeWebServices.NotificationType.SubscriptionId" /> propriété obtient ou définit l’identificateur d’un abonnement.</summary>
+        <value>Le <see cref="P:ExchangeWebServices.NotificationType.SubscriptionId" /> propriété renvoie une chaîne qui contient l’identificateur d’un abonnement.</value>
+        <remarks>
+          <para>Le GUID qui représente l’identificateur d’abonnement est généré par le serveur d’accès au Client lors de la création de l’abonnement.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

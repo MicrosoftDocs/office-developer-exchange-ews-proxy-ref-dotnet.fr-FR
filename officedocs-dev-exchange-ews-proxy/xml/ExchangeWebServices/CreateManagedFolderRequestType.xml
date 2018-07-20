@@ -1,0 +1,114 @@
+<Type Name="CreateManagedFolderRequestType" FullName="ExchangeWebServices.CreateManagedFolderRequestType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a1b88227f4363e3000fcf457328b3dc7721618a7" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20604227" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class CreateManagedFolderRequestType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit CreateManagedFolderRequestType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.CreateManagedFolderRequestType" />
+  <TypeSignature Language="VB.NET" Value="Public Class CreateManagedFolderRequestType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CreateManagedFolderRequestType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Le <see cref="T:ExchangeWebServices.CreateManagedFolderRequestType" /> classe représente une demande pour ajouter un dossier géré à une boîte aux lettres.</summary>
+    <remarks>
+      <para>Dossiers gérés sont créés sur l’ordinateur qui exécute Microsoft Exchange Server 2007. Pour ajouter par programme des dossiers personnalisés gérés pour une boîte aux lettres, utilisez le <see cref="T:ExchangeWebServices.CreateManagedFolderRequestType" /> classe. Vous ne pouvez ajouter des dossiers gérés si un dossier géré a déjà été défini à l’aide de la Console de gestion Exchange ou Exchange Management Shell. L’opération CreateManagedFolder crée une instance d’un dossier géré basé sur un modèle de dossier géré qui existe déjà dans le service d’annuaire Active Directory.</para>
+      <para />
+    </remarks>
+    <example>
+      <para>Pour obtenir un exemple illustrant comment utiliser les <see cref="T:ExchangeWebServices.CreateManagedFolderRequestType" /> de classe, consultez la rubrique Ajout de dossiers gérés. Pour obtenir un exemple complet qui montre comment implémenter des dossiers gérés à partir d’une application, voir <a href="http://go.microsoft.com/fwlink/?LinkID=82742">Exemples de sélecteur de dossier géré</a></para>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CreateManagedFolderRequestType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.CreateManagedFolderRequestType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CreateManagedFolderRequestType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Le <see cref="T:ExchangeWebServices.CreateManagedFolderRequestType" /> constructeur initialise une nouvelle instance de le <see cref="T:ExchangeWebServices.CreateManagedFolderRequestType" /> classe.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderNames">
+      <MemberSignature Language="C#" Value="public string[] FolderNames { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] FolderNames" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CreateManagedFolderRequestType.FolderNames" />
+      <MemberSignature Language="VB.NET" Value="Public Property FolderNames As String()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::String ^&gt; ^ FolderNames { cli::array &lt;System::String ^&gt; ^ get(); void set(cli::array &lt;System::String ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("FolderName", IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Le <see cref="P:ExchangeWebServices.CreateManagedFolderRequestType.FolderNames" /> propriété obtient ou définit un tableau des dossiers gérés à ajouter à une boîte aux lettres. Cette propriété est requise. Il s’agit d’une propriété en lecture-écriture.</summary>
+        <value>Le <see cref="P:ExchangeWebServices.CreateManagedFolderRequestType.FolderNames" /> propriété renvoie un tableau de chaînes contenant les noms des dossiers gérés à ajouter à une boîte aux lettres.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailbox">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EmailAddressType Mailbox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EmailAddressType Mailbox" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CreateManagedFolderRequestType.Mailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mailbox As EmailAddressType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::EmailAddressType ^ Mailbox { ExchangeWebServices::EmailAddressType ^ get(); void set(ExchangeWebServices::EmailAddressType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailAddressType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Le <see cref="P:ExchangeWebServices.CreateManagedFolderRequestType.Mailbox" /> propriété obtient ou définit l’adresse de messagerie de la boîte aux lettres dans laquelle les dossiers gérés sont ajoutés. Cette propriété est facultative. Il s’agit d’une propriété en lecture-écriture.</summary>
+        <value>Le <see cref="P:ExchangeWebServices.CreateManagedFolderRequestType.Mailbox" /> propriété retourne un <see cref="T:ExchangeWebServices.EmailAddressType" /> objet.</value>
+        <remarks>
+          <para>Cette propriété est requise lorsque vous ajoutez une boîte aux lettres vers un autre compte lorsque vous utilisez l’emprunt d’identité Exchange.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

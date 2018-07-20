@@ -1,0 +1,110 @@
+<Type Name="InternetHeaderType" FullName="ExchangeWebServices.InternetHeaderType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="99f3c0005a13cafbf417b4ef7e1cdfb1014f2a2d" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20604451" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class InternetHeaderType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit InternetHeaderType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.InternetHeaderType" />
+  <TypeSignature Language="VB.NET" Value="Public Class InternetHeaderType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class InternetHeaderType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Le <see cref="T:ExchangeWebServices.InternetHeaderType" /> classe représente l’en-tête de message Internet pour un en-tête donné dans la collection d’en-têtes.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public InternetHeaderType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.InternetHeaderType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; InternetHeaderType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Le <see cref="M:ExchangeWebServices.InternetHeaderType.#ctor" /> constructeur initialise une nouvelle instance de le <see cref="T:ExchangeWebServices.InternetHeaderType" /> classe.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HeaderName">
+      <MemberSignature Language="C#" Value="public string HeaderName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string HeaderName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.InternetHeaderType.HeaderName" />
+      <MemberSignature Language="VB.NET" Value="Public Property HeaderName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ HeaderName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Le <see cref="P:ExchangeWebServices.InternetHeaderType.HeaderName" /> propriété obtient ou définit une valeur de type string qui contient le nom de l’en-tête.</summary>
+        <value>Le <see cref="P:ExchangeWebServices.InternetHeaderType.HeaderName" /> propriété renvoie une valeur de type string qui contient le nom de l’en-tête.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public string Value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Value" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.InternetHeaderType.Value" />
+      <MemberSignature Language="VB.NET" Value="Public Property Value As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Value { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlText</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Le <see cref="P:ExchangeWebServices.InternetHeaderType.Value" /> propriété obtient ou définit une valeur de type string qui contient la valeur de l’en-tête.</summary>
+        <value>Le <see cref="P:ExchangeWebServices.InternetHeaderType.Value" /> propriété renvoie une valeur de type string qui contient la valeur de l’en-tête.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

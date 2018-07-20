@@ -1,0 +1,116 @@
+<Type Name="ItemIdType" FullName="ExchangeWebServices.ItemIdType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="55cb410785f7820df9eb0351466915814848bd3e" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20605704" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ItemIdType : ExchangeWebServices.BaseItemIdType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ItemIdType extends ExchangeWebServices.BaseItemIdType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ItemIdType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ItemIdType&#xA;Inherits BaseItemIdType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ItemIdType : ExchangeWebServices::BaseItemIdType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseItemIdType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.RecurringMasterItemIdRangesType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Le <see cref="T:ExchangeWebServices.ItemIdType" /> classe représente un identificateur d’élément d’un élément dans une boîte aux lettres Exchange.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ItemIdType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ItemIdType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ItemIdType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Le <see cref="T:ExchangeWebServices.ItemIdType" /> constructeur initialise une nouvelle instance de le <see cref="T:ExchangeWebServices.ItemIdType" /> classe.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChangeKey">
+      <MemberSignature Language="C#" Value="public string ChangeKey { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ChangeKey" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemIdType.ChangeKey" />
+      <MemberSignature Language="VB.NET" Value="Public Property ChangeKey As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ChangeKey { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Le <see cref="P:ExchangeWebServices.ItemIdType.ChangeKey" /> propriété obtient ou définit la clé de la modification d’un élément. Cette propriété est facultative en fonction du contexte dans lequel il est utilisé. Il s’agit d’une propriété en lecture-écriture.</summary>
+        <value>Le <see cref="P:ExchangeWebServices.ItemIdType.ChangeKey" /> propriété renvoie une chaîne qui représente le symbole de modification pour un élément.</value>
+        <remarks>
+          <para>Cette propriété est requise lorsqu’une clé de modification est nécessaire pour identifier une version d’un élément.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemIdType.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Property Id As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Id { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Le <see cref="P:ExchangeWebServices.ItemIdType.Id" /> propriété obtient ou définit l’identificateur d’élément. Cette propriété est requise. Il s’agit d’une propriété en lecture-écriture.</summary>
+        <value>Le <see cref="P:ExchangeWebServices.ItemIdType.Id" /> propriété renvoie une chaîne qui représente l’identificateur pour un élément. Le <see cref="P:ExchangeWebServices.ItemIdType.Id" /> propriété respecte la casse ; Par conséquent, les comparaisons entre l’ID doivent être la casse ou binaire.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

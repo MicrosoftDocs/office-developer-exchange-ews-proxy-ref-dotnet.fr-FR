@@ -1,0 +1,115 @@
+<Type Name="CalendarPermissionReadAccessType" FullName="ExchangeWebServices.CalendarPermissionReadAccessType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="64df1aaa964903809b043dc299980a3a578a0340" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20604056" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum CalendarPermissionReadAccessType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed CalendarPermissionReadAccessType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.CalendarPermissionReadAccessType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum CalendarPermissionReadAccessType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class CalendarPermissionReadAccessType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Le <see cref="T:ExchangeWebServices.CalendarPermissionReadAccessType" /> énumération spécifie si un utilisateur est autorisé à lire des éléments dans un dossier de calendrier.</summary>
+    <remarks>
+      <para>Cette énumération est utilisée par la propriété ReadItems (CalendarPermissionType) de la <see cref="T:ExchangeWebServices.CalendarPermissionType" /> objet et par la propriété SharingEffectiveRights (CalendarPermissionReadAccessType) de la <see cref="T:ExchangeWebServices.CalendarFolderType" /> objet.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FullDetails">
+      <MemberSignature Language="C#" Value="FullDetails" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.CalendarPermissionReadAccessType FullDetails = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.CalendarPermissionReadAccessType.FullDetails" />
+      <MemberSignature Language="VB.NET" Value="FullDetails" />
+      <MemberSignature Language="C++ CLI" Value="FullDetails" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarPermissionReadAccessType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>L’utilisateur a l’autorisation d’afficher tous les éléments dans le calendrier, notamment formulées et subject, emplacement et les détails des rendez-vous.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.CalendarPermissionReadAccessType None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.CalendarPermissionReadAccessType.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarPermissionReadAccessType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>L’utilisateur ne dispose pas d’autorisation d’afficher des éléments dans le calendrier.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TimeAndSubjectAndLocation">
+      <MemberSignature Language="C#" Value="TimeAndSubjectAndLocation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.CalendarPermissionReadAccessType TimeAndSubjectAndLocation = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.CalendarPermissionReadAccessType.TimeAndSubjectAndLocation" />
+      <MemberSignature Language="VB.NET" Value="TimeAndSubjectAndLocation" />
+      <MemberSignature Language="C++ CLI" Value="TimeAndSubjectAndLocation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarPermissionReadAccessType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>L’utilisateur est autorisé à afficher le temps de disponibilité dans le calendrier et le sujet et l’emplacement du rendez-vous.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TimeOnly">
+      <MemberSignature Language="C#" Value="TimeOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.CalendarPermissionReadAccessType TimeOnly = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.CalendarPermissionReadAccessType.TimeOnly" />
+      <MemberSignature Language="VB.NET" Value="TimeOnly" />
+      <MemberSignature Language="C++ CLI" Value="TimeOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarPermissionReadAccessType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>L’utilisateur a l’autorisation d’afficher uniquement formulées dans le calendrier.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,137 @@
+<Type Name="SyncFolderHierarchyChangesType" FullName="ExchangeWebServices.SyncFolderHierarchyChangesType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a79d5f17ddefc758eedb76cdf481905eb1a429fa" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20604573" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class SyncFolderHierarchyChangesType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit SyncFolderHierarchyChangesType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SyncFolderHierarchyChangesType" />
+  <TypeSignature Language="VB.NET" Value="Public Class SyncFolderHierarchyChangesType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SyncFolderHierarchyChangesType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Le <see cref="T:ExchangeWebServices.SyncFolderHierarchyChangesType" /> classe contient un tableau séquencé de types de modification qui décrivent les différences entre les dossiers sur le client et les dossiers sur le serveur Exchange.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SyncFolderHierarchyChangesType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.SyncFolderHierarchyChangesType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SyncFolderHierarchyChangesType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Le <see cref="T:ExchangeWebServices.SyncFolderHierarchyChangesType" /> constructeur initialise une nouvelle instance de le <see cref="T:ExchangeWebServices.SyncFolderHierarchyChangesType" /> classe.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Items">
+      <MemberSignature Language="C#" Value="public object[] Items { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object[] Items" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SyncFolderHierarchyChangesType.Items" />
+      <MemberSignature Language="VB.NET" Value="Public Property Items As Object()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Object ^&gt; ^ Items { cli::array &lt;System::Object ^&gt; ^ get(); void set(cli::array &lt;System::Object ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlChoiceIdentifier("ItemsElementName")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Delete", typeof(ExchangeWebServices.SyncFolderHierarchyDeleteType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Create", typeof(ExchangeWebServices.SyncFolderHierarchyCreateOrUpdateType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Update", typeof(ExchangeWebServices.SyncFolderHierarchyCreateOrUpdateType))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Le <see cref="P:ExchangeWebServices.SyncFolderHierarchyChangesType.Items" /> propriété obtient ou définit une collection de modifications.</summary>
+        <value>Le <see cref="P:ExchangeWebServices.SyncFolderHierarchyChangesType.Items" /> propriété renvoie un tableau d’objets qui contient les modifications.</value>
+        <remarks>
+          <para>Le tableau d’objets qui est retourné par la <see cref="P:ExchangeWebServices.SyncFolderHierarchyChangesType.Items" /> propriété peut contenir les éléments des types suivants :</para>
+          <list type="bullet">
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.SyncFolderHierarchyCreateOrUpdateType" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.SyncFolderHierarchyDeleteType" />
+              </description>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemsElementName">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ItemsChoiceType1[] ItemsElementName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.ItemsChoiceType1[] ItemsElementName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SyncFolderHierarchyChangesType.ItemsElementName" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemsElementName As ItemsChoiceType1()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::ItemsChoiceType1&gt; ^ ItemsElementName { cli::array &lt;ExchangeWebServices::ItemsChoiceType1&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::ItemsChoiceType1&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("ItemsElementName")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType1[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Le <see cref="P:ExchangeWebServices.SyncFolderHierarchyChangesType.ItemsElementName" /> propriété obtient ou définit une collection de modifier les identificateurs d’objets.</summary>
+        <value>Le <see cref="P:ExchangeWebServices.SyncFolderHierarchyChangesType.ItemsElementName" /> propriété renvoie un tableau de <see cref="T:ExchangeWebServices.ItemsChoiceType1" /> valeurs d’énumération qui indiquent le type de modification d’objets dans le <see cref="P:ExchangeWebServices.SyncFolderHierarchyChangesType.Items" /> collection au niveau de l’index correspondant.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

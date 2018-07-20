@@ -1,0 +1,118 @@
+<Type Name="FractionalPageViewType" FullName="ExchangeWebServices.FractionalPageViewType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="736d6527b6ea8663443c3a4a14c380849440ce84" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20604804" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class FractionalPageViewType : ExchangeWebServices.BasePagingType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit FractionalPageViewType extends ExchangeWebServices.BasePagingType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.FractionalPageViewType" />
+  <TypeSignature Language="VB.NET" Value="Public Class FractionalPageViewType&#xA;Inherits BasePagingType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FractionalPageViewType : ExchangeWebServices::BasePagingType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BasePagingType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Le <see cref="T:ExchangeWebServices.FractionalPageViewType" /> classe décrit où un affichage paginé démarre et le nombre maximal d’éléments qui sont retournés dans une réponse FindItem ou FindFolder.</summary>
+    <remarks>
+      <para>Le décalage d’affichage paginé à partir du début du jeu d’éléments trouvés est décrit par une fraction. La fraction, qui est définie par le <see cref="P:ExchangeWebServices.FractionalPageViewType.Numerator" /> et <see cref="P:ExchangeWebServices.FractionalPageViewType.Denominator" /> propriétés, décrit où démarre la page d’informations. Par exemple, si <see cref="P:ExchangeWebServices.FractionalPageViewType.Numerator" /> est égal à quatre et <see cref="P:ExchangeWebServices.FractionalPageViewType.Denominator" /> est égal à 5, la page d’informations renvoyées commence par une entrée qui est situé quatre cinquièmes de la manière dans le jeu de résultats.</para> La valeur 
+      <para>Si la fraction correspond à zéro, qui indique le début des résultats. Si la fraction a la valeur 1, qui indique la fin du jeu de résultats.</para><para /></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FractionalPageViewType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.FractionalPageViewType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FractionalPageViewType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Le <see cref="T:ExchangeWebServices.FractionalPageViewType" /> constructeur initialise une nouvelle instance de le <see cref="T:ExchangeWebServices.FractionalPageViewType" /> classe.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Denominator">
+      <MemberSignature Language="C#" Value="public int Denominator { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Denominator" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FractionalPageViewType.Denominator" />
+      <MemberSignature Language="VB.NET" Value="Public Property Denominator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Denominator { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Le <see cref="P:ExchangeWebServices.FractionalPageViewType.Denominator" /> propriété obtient ou définit le dénominateur de décalage fractionnaire à partir du début du nombre total d’éléments dans le jeu de résultats.</summary>
+        <value>Le <see cref="P:ExchangeWebServices.FractionalPageViewType.Denominator" /> propriété retourne le dénominateur de décalage en fraction.</value>
+        <remarks>
+          <para>Le <see cref="P:ExchangeWebServices.FractionalPageViewType.Denominator" /> doit être supérieure à zéro.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Numerator">
+      <MemberSignature Language="C#" Value="public int Numerator { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Numerator" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FractionalPageViewType.Numerator" />
+      <MemberSignature Language="VB.NET" Value="Public Property Numerator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Numerator { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Le <see cref="P:ExchangeWebServices.FractionalPageViewType.Numerator" /> propriété obtient ou définit le numérateur du décalage en fraction à partir du début du nombre total d’éléments dans le jeu de résultats.</summary>
+        <value>Le <see cref="P:ExchangeWebServices.FractionalPageViewType.Numerator" /> propriété retourne le numérateur du décalage en fraction.</value>
+        <remarks>
+          <para>Le <see cref="P:ExchangeWebServices.FractionalPageViewType.Numerator" /> doit être supérieure ou égale à zéro. Le <see cref="P:ExchangeWebServices.FractionalPageViewType.Numerator" /> doit être inférieure ou égale à la <see cref="P:ExchangeWebServices.FractionalPageViewType.Denominator" />.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

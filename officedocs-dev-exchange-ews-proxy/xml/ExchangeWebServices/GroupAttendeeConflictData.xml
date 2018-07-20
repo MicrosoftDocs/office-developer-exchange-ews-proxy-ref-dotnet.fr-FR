@@ -1,0 +1,154 @@
+<Type Name="GroupAttendeeConflictData" FullName="ExchangeWebServices.GroupAttendeeConflictData">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8f72a7bd0e268e35198b2c1ab6d9273b215339dc" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20605288" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class GroupAttendeeConflictData : ExchangeWebServices.AttendeeConflictData" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GroupAttendeeConflictData extends ExchangeWebServices.AttendeeConflictData" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GroupAttendeeConflictData" />
+  <TypeSignature Language="VB.NET" Value="Public Class GroupAttendeeConflictData&#xA;Inherits AttendeeConflictData" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GroupAttendeeConflictData : ExchangeWebServices::AttendeeConflictData" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.AttendeeConflictData</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Le <see cref="T:ExchangeWebServices.GroupAttendeeConflictData" /> classe contient des informations de conflit agrégation sur le nombre d’utilisateurs qui sont disponibles, le nombre d’utilisateurs qui ont des conflits et le nombre d’utilisateurs qui n’ont pas d’informations de disponibilité dans une liste de distribution pour une heure de réunion proposée.</summary>
+    <remarks>
+      <para>A <see cref="T:ExchangeWebServices.GroupAttendeeConflictData" /> objet est présent dans le <see cref="T:ExchangeWebServices.GetUserAvailabilityResponseType" /> instance qui est retournée par le <see cref="M:ExchangeWebServices.ExchangeServiceBinding.GetUserAvailability(ExchangeWebServices.GetUserAvailabilityRequestType)" /> méthode lorsqu’un participant dans l’objet de requête est résolue en une liste de distribution. </para>
+      <para>Le <see cref="T:ExchangeWebServices.GroupAttendeeConflictData" /> classe identifie les trois états de membres d’une liste de distribution : disponible, en conflit, ou aucune donnée. Développement de listes de distribution prendra en charge jusqu'à 100 membres ; Par conséquent, la valeur maximale de la <see cref="P:ExchangeWebServices.GroupAttendeeConflictData.NumberOfMembers" /> propriété est 100. </para>
+      <para>Extension des listes de distribution est récursive. Si une liste de distribution contient une liste de distribution enfants qui développe l’appartenance aux listes total à plus de 100 membres, la liste de distribution enfants ne seront pas développée et comptera comme une seule entrée de la <see cref="P:ExchangeWebServices.GroupAttendeeConflictData.NumberOfMembersWithNoData" /> propriété. Si une liste de distribution enfants peut être développée et l’appartenance aux listes total n’augmente pas plus de 100 membres, la liste de distribution enfants est développée et les nombres de membres sont ajoutés à des nombres de la <see cref="T:ExchangeWebServices.GroupAttendeeConflictData" /> propriétés de classe.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GroupAttendeeConflictData ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.GroupAttendeeConflictData.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GroupAttendeeConflictData();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Le <see cref="T:ExchangeWebServices.GroupAttendeeConflictData" /> constructeur initialise une nouvelle instance de le <see cref="T:ExchangeWebServices.GroupAttendeeConflictData" /> classe.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfMembers">
+      <MemberSignature Language="C#" Value="public int NumberOfMembers { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfMembers" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GroupAttendeeConflictData.NumberOfMembers" />
+      <MemberSignature Language="VB.NET" Value="Public Property NumberOfMembers As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int NumberOfMembers { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Le <see cref="P:ExchangeWebServices.GroupAttendeeConflictData.NumberOfMembers" /> propriété obtient ou définit le nombre d’utilisateurs, des ressources et des salles dans une liste de distribution.</summary>
+        <value>Le <see cref="P:ExchangeWebServices.GroupAttendeeConflictData.NumberOfMembers" /> propriété renvoie le nombre d’utilisateurs, des ressources et des salles dans une liste de distribution.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfMembersAvailable">
+      <MemberSignature Language="C#" Value="public int NumberOfMembersAvailable { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfMembersAvailable" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GroupAttendeeConflictData.NumberOfMembersAvailable" />
+      <MemberSignature Language="VB.NET" Value="Public Property NumberOfMembersAvailable As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int NumberOfMembersAvailable { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Le <see cref="P:ExchangeWebServices.GroupAttendeeConflictData.NumberOfMembersAvailable" /> propriété obtient ou définit le nombre de distribution de liste des membres qui sont disponibles pour une heure de réunion proposée.</summary>
+        <value>Le <see cref="P:ExchangeWebServices.GroupAttendeeConflictData.NumberOfMembersAvailable" /> propriété renvoie le nombre de distribution de liste des membres qui sont disponibles pour une heure de réunion proposée.</value>
+        <remarks>
+          <para>Le <see cref="P:ExchangeWebServices.GroupAttendeeConflictData.NumberOfMembersAvailable" /> propriété est le nombre de membres dont l’état de disponibilité est <see cref="F:ExchangeWebServices.LegacyFreeBusyType.Free" />.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfMembersWithConflict">
+      <MemberSignature Language="C#" Value="public int NumberOfMembersWithConflict { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfMembersWithConflict" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GroupAttendeeConflictData.NumberOfMembersWithConflict" />
+      <MemberSignature Language="VB.NET" Value="Public Property NumberOfMembersWithConflict As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int NumberOfMembersWithConflict { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Le <see cref="P:ExchangeWebServices.GroupAttendeeConflictData.NumberOfMembersWithConflict" /> propriété obtient ou définit le nombre de distribution de liste des membres qui ont un conflit avec une heure de réunion proposée.</summary>
+        <value>Le <see cref="P:ExchangeWebServices.GroupAttendeeConflictData.NumberOfMembersWithConflict" /> propriété renvoie le nombre de distribution de liste des membres qui ont un conflit avec une heure de réunion proposée.</value>
+        <remarks>
+          <para>Le <see cref="P:ExchangeWebServices.GroupAttendeeConflictData.NumberOfMembersWithConflict" /> propriété est le nombre de membres dont l’état d’availiblity est <see cref="F:ExchangeWebServices.LegacyFreeBusyType.Busy" />, <see cref="F:ExchangeWebServices.LegacyFreeBusyType.OOF" />, ou <see cref="F:ExchangeWebServices.LegacyFreeBusyType.Tentative" />.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfMembersWithNoData">
+      <MemberSignature Language="C#" Value="public int NumberOfMembersWithNoData { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfMembersWithNoData" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GroupAttendeeConflictData.NumberOfMembersWithNoData" />
+      <MemberSignature Language="VB.NET" Value="Public Property NumberOfMembersWithNoData As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int NumberOfMembersWithNoData { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Le <see cref="P:ExchangeWebServices.GroupAttendeeConflictData.NumberOfMembersWithNoData" /> propriété obtient ou définit le nombre de distribution de liste des membres qui n’a pas publié et de disponibilité des données à comparer à une heure de réunion proposée.</summary>
+        <value>Le <see cref="P:ExchangeWebServices.GroupAttendeeConflictData.NumberOfMembersWithNoData" /> propriété renvoie le nombre de distribution de liste des membres qui n’a pas publié et de disponibilité des données à comparer à une heure de réunion proposée.</value>
+        <remarks>
+          <para>Le <see cref="P:ExchangeWebServices.GroupAttendeeConflictData.NumberOfMembersWithNoData" /> propriété représente le nombre de membres d’une liste de distribution qui ont une <see cref="F:ExchangeWebServices.LegacyFreeBusyType.NoData" /> statut, ou il représente les membres d’une liste de distribution est trop grande pour être étendu.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
