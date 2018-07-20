@@ -1,0 +1,1382 @@
+<Type Name="TaskType" FullName="ExchangeWebServices.TaskType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="23ae6e699593b862b484dc33461952932f1e1c33" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20605597" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class TaskType : ExchangeWebServices.ItemType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit TaskType extends ExchangeWebServices.ItemType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.TaskType" />
+  <TypeSignature Language="VB.NET" Value="Public Class TaskType&#xA;Inherits ItemType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TaskType : ExchangeWebServices::ItemType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.ItemType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="de483-101">Le <see cref="T:ExchangeWebServices.TaskType" /> classe représente une tâche dans la banque d’informations Exchange.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="de483-101">The <see cref="T:ExchangeWebServices.TaskType" /> class represents a task in the Exchange store.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TaskType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.TaskType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TaskType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-102">Le <see cref="M:ExchangeWebServices.TaskType.#ctor" /> constructeur initialise une nouvelle instance de le <see cref="T:ExchangeWebServices.TaskType" /> classe.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-102">The <see cref="M:ExchangeWebServices.TaskType.#ctor" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.TaskType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActualWork">
+      <MemberSignature Language="C#" Value="public int ActualWork { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ActualWork" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.ActualWork" />
+      <MemberSignature Language="VB.NET" Value="Public Property ActualWork As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ActualWork { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-103">Le <see cref="P:ExchangeWebServices.TaskType.ActualWork" /> propriété obtient ou définit une valeur integer qui spécifie la quantité de temps passé réelle sur une tâche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-103">The <see cref="P:ExchangeWebServices.TaskType.ActualWork" /> property gets or sets an integer value that specifies the actual amount of time that is spent on a task.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-104">Le <see cref="P:ExchangeWebServices.TaskType.ActualWork" /> propriété renvoie une valeur entière qui spécifie la quantité de temps passé réelle sur une tâche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-104">The <see cref="P:ExchangeWebServices.TaskType.ActualWork" /> property returns an integer value that specifies the actual amount of time that is spent on a task.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActualWorkSpecified">
+      <MemberSignature Language="C#" Value="public bool ActualWorkSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ActualWorkSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.ActualWorkSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ActualWorkSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ActualWorkSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-105">Le <see cref="P:ExchangeWebServices.TaskType.ActualWorkSpecified" /> propriété obtient ou définit une valeur de type Boolean qui indique si les <see cref="P:ExchangeWebServices.TaskType.ActualWork" /> est de sérialiser la propriété dans la demande SOAP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-105">The <see cref="P:ExchangeWebServices.TaskType.ActualWorkSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.TaskType.ActualWork" /> property is serialized into the SOAP request.</span>
+          </span>
+          <span data-ttu-id="de483-106">Cette propriété est requise si le <see cref="P:ExchangeWebServices.TaskType.ActualWork" /> propriété est spécifiée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-106">This property is required if the <see cref="P:ExchangeWebServices.TaskType.ActualWork" /> property is specified.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-107">Le <see cref="P:ExchangeWebServices.TaskType.ActualWorkSpecified" /> propriété renvoie <b>la valeur true</b> si les <see cref="P:ExchangeWebServices.TaskType.ActualWork" /> est de sérialiser la propriété dans la demande SOAP. dans le cas contraire, la propriété renvoie la <b>valeur false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-107">The <see cref="P:ExchangeWebServices.TaskType.ActualWorkSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.TaskType.ActualWork" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AssignedTime">
+      <MemberSignature Language="C#" Value="public DateTime AssignedTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime AssignedTime" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.AssignedTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property AssignedTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime AssignedTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-108">Le <see cref="P:ExchangeWebServices.TaskType.AssignedTime" /> propriété obtient ou définit une instance de la structure DateTime qui contient l’heure lorsqu’une tâche est affectée à un contact.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-108">The <see cref="P:ExchangeWebServices.TaskType.AssignedTime" /> property gets or sets an instance of the DateTime structure that contains the time when a task is assigned to a contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-109">Le <see cref="P:ExchangeWebServices.TaskType.AssignedTime" /> propriété retourne une instance de la structure DateTime qui contient l’heure lorsqu’une tâche est affectée à un contact.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-109">The <see cref="P:ExchangeWebServices.TaskType.AssignedTime" /> property returns an instance of the DateTime structure that contains the time when a task is assigned to a contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AssignedTimeSpecified">
+      <MemberSignature Language="C#" Value="public bool AssignedTimeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AssignedTimeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.AssignedTimeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property AssignedTimeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AssignedTimeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-110">Le <see cref="P:ExchangeWebServices.TaskType.AssignedTimeSpecified" /> propriété obtient ou définit une valeur de type Boolean qui indique si les <see cref="P:ExchangeWebServices.TaskType.AssignedTime" /> est de sérialiser la propriété dans la demande SOAP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-110">The <see cref="P:ExchangeWebServices.TaskType.AssignedTimeSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.TaskType.AssignedTime" /> property is serialized into the SOAP request.</span>
+          </span>
+          <span data-ttu-id="de483-111">Cette propriété est requise si le <see cref="P:ExchangeWebServices.TaskType.AssignedTime" /> propriété est spécifiée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-111">This property is required if the <see cref="P:ExchangeWebServices.TaskType.AssignedTime" /> property is specified.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-112">Le <see cref="P:ExchangeWebServices.TaskType.AssignedTimeSpecified" /> propriété renvoie <b>la valeur true</b> si les <see cref="P:ExchangeWebServices.TaskType.AssignedTime" /> est de sérialiser la propriété dans la demande SOAP. dans le cas contraire, la propriété renvoie la <b>valeur false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-112">The <see cref="P:ExchangeWebServices.TaskType.AssignedTimeSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.TaskType.AssignedTime" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BillingInformation">
+      <MemberSignature Language="C#" Value="public string BillingInformation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string BillingInformation" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.BillingInformation" />
+      <MemberSignature Language="VB.NET" Value="Public Property BillingInformation As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ BillingInformation { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-113">Le <see cref="P:ExchangeWebServices.TaskType.BillingInformation" /> propriété obtient ou définit une valeur de type string qui contient les informations de facturation pour une tâche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-113">The <see cref="P:ExchangeWebServices.TaskType.BillingInformation" /> property gets or sets a string value that contains billing information for a task.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-114">Le <see cref="P:ExchangeWebServices.TaskType.BillingInformation" /> propriété renvoie une valeur de type string qui contient les informations de facturation pour une tâche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-114">The <see cref="P:ExchangeWebServices.TaskType.BillingInformation" /> property returns a string value that contains billing information for a task.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChangeCount">
+      <MemberSignature Language="C#" Value="public int ChangeCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ChangeCount" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.ChangeCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property ChangeCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ChangeCount { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-115">Le <see cref="P:ExchangeWebServices.TaskType.ChangeCount" /> propriété obtient ou définit une valeur integer qui spécifie la version d’une tâche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-115">The <see cref="P:ExchangeWebServices.TaskType.ChangeCount" /> property gets or sets an integer value that specifies the version of a task.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-116">Le <see cref="P:ExchangeWebServices.TaskType.ChangeCount" /> propriété renvoie une valeur entière qui spécifie la version d’une tâche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-116">The <see cref="P:ExchangeWebServices.TaskType.ChangeCount" /> property returns an integer value that specifies the version of a task.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChangeCountSpecified">
+      <MemberSignature Language="C#" Value="public bool ChangeCountSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ChangeCountSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.ChangeCountSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ChangeCountSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ChangeCountSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-117">Le <see cref="P:ExchangeWebServices.TaskType.ChangeCountSpecified" /> propriété obtient ou définit une valeur de type Boolean qui indique si les <see cref="P:ExchangeWebServices.TaskType.ChangeCount" /> est de sérialiser la propriété dans la demande SOAP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-117">The <see cref="P:ExchangeWebServices.TaskType.ChangeCountSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.TaskType.ChangeCount" /> property is serialized into the SOAP request.</span>
+          </span>
+          <span data-ttu-id="de483-118">Cette propriété est requise si le <see cref="P:ExchangeWebServices.TaskType.ChangeCount" /> propriété est spécifiée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-118">This property is required if the <see cref="P:ExchangeWebServices.TaskType.ChangeCount" /> property is specified.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-119">Le <see cref="P:ExchangeWebServices.TaskType.ChangeCountSpecified" /> propriété renvoie <b>la valeur true</b> si les <see cref="P:ExchangeWebServices.TaskType.ChangeCount" /> est de sérialiser la propriété dans la demande SOAP. dans le cas contraire, la propriété renvoie la <b>valeur false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-119">The <see cref="P:ExchangeWebServices.TaskType.ChangeCountSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.TaskType.ChangeCount" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Companies">
+      <MemberSignature Language="C#" Value="public string[] Companies { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] Companies" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.Companies" />
+      <MemberSignature Language="VB.NET" Value="Public Property Companies As String()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::String ^&gt; ^ Companies { cli::array &lt;System::String ^&gt; ^ get(); void set(cli::array &lt;System::String ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("String", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-120">Le <see cref="P:ExchangeWebServices.TaskType.Companies" /> propriété obtient ou définit une instance d’un tableau de type string qui représente une collection de sociétés qui sont associés à une tâche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-120">The <see cref="P:ExchangeWebServices.TaskType.Companies" /> property gets or sets an instance of an array of type string that represents a collection of companies that are associated with a task.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-121">Le <see cref="P:ExchangeWebServices.TaskType.Companies" /> propriété renvoie un tableau de type string qui représente une collection de sociétés qui sont associés à une tâche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-121">The <see cref="P:ExchangeWebServices.TaskType.Companies" /> property returns an array of type string that represents a collection of companies that are associated with a task.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompleteDate">
+      <MemberSignature Language="C#" Value="public DateTime CompleteDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime CompleteDate" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.CompleteDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property CompleteDate As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime CompleteDate { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-122">Le <see cref="P:ExchangeWebServices.TaskType.CompleteDate" /> propriété obtient ou définit une instance de la structure DateTime qui représente la date à laquelle une tâche a été effectuée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-122">The <see cref="P:ExchangeWebServices.TaskType.CompleteDate" /> property gets or sets an instance of the DateTime structure that represents the date on which a task was completed.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-123">Le <see cref="P:ExchangeWebServices.TaskType.CompleteDate" /> propriété retourne une instance de la structure DateTime qui représente la date à laquelle une tâche a été effectuée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-123">The <see cref="P:ExchangeWebServices.TaskType.CompleteDate" /> property returns an instance of the DateTime structure that represents the date on which a task was completed.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="de483-124">
+            <para>Définition de la <see cref="P:ExchangeWebServices.TaskType.CompleteDate" /> propriété a le même effet en tant que paramètre de la <see cref="P:ExchangeWebServices.TaskType.PercentComplete" /> propriété à 100 ou la <see cref="P:ExchangeWebServices.TaskType.Status" /> propriété <see cref="F:ExchangeWebServices.TaskStatusType.Completed" />. Dans une demande qu’au moins deux jeux de ces propriétés, la dernière propriété traitée détermine la valeur est définie pour ces éléments. Par exemple, si le <see cref="P:ExchangeWebServices.TaskType.PercentComplete" /> propriété est 100, le <see cref="P:ExchangeWebServices.TaskType.CompleteDate" /> propriété est le 1er janvier 2007 et le <see cref="P:ExchangeWebServices.TaskType.Status" /> propriété est <see cref="F:ExchangeWebServices.TaskStatusType.NotStarted" />et les propriétés sont transmises dans l’ordre, l’effet sera pour définir le <see cref="P:ExchangeWebServices.TaskType.Status" /> propriété de la tâche à <see cref="F:ExchangeWebServices.TaskStatusType.NotStarted" />, le <see cref="P:ExchangeWebServices.TaskType.CompleteDate" />propriété à une référence nulle (Nothing dans Visual Basic) et le <see cref="P:ExchangeWebServices.TaskType.PercentComplete" /> 0 à la propriété.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-124">
+              <para>Setting the <see cref="P:ExchangeWebServices.TaskType.CompleteDate" /> property has the same effect as setting the <see cref="P:ExchangeWebServices.TaskType.PercentComplete" /> property to 100 or the <see cref="P:ExchangeWebServices.TaskType.Status" /> property to <see cref="F:ExchangeWebServices.TaskStatusType.Completed" />. In a request that sets at least two of these properties, the last processed property will determine the value that is set for these elements. For example, if the <see cref="P:ExchangeWebServices.TaskType.PercentComplete" /> property is 100, the <see cref="P:ExchangeWebServices.TaskType.CompleteDate" /> property is January 1, 2007, and the <see cref="P:ExchangeWebServices.TaskType.Status" /> property is <see cref="F:ExchangeWebServices.TaskStatusType.NotStarted" />, and the properties are streamed in that order, the effect will be to set the <see cref="P:ExchangeWebServices.TaskType.Status" /> property of the task to <see cref="F:ExchangeWebServices.TaskStatusType.NotStarted" />, the <see cref="P:ExchangeWebServices.TaskType.CompleteDate" /> property to a null reference (Nothing in Visual Basic), and the <see cref="P:ExchangeWebServices.TaskType.PercentComplete" /> property to 0.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompleteDateSpecified">
+      <MemberSignature Language="C#" Value="public bool CompleteDateSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CompleteDateSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.CompleteDateSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property CompleteDateSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CompleteDateSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-125">Le <see cref="P:ExchangeWebServices.TaskType.CompleteDateSpecified" /> propriété obtient ou définit une valeur de type Boolean qui indique si les <see cref="P:ExchangeWebServices.TaskType.CompleteDate" /> est de sérialiser la propriété dans la demande SOAP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-125">The <see cref="P:ExchangeWebServices.TaskType.CompleteDateSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.TaskType.CompleteDate" /> property is serialized into the SOAP request.</span>
+          </span>
+          <span data-ttu-id="de483-126">Cette propriété est requise si le <see cref="P:ExchangeWebServices.TaskType.CompleteDate" /> propriété est spécifiée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-126">This property is required if the <see cref="P:ExchangeWebServices.TaskType.CompleteDate" /> property is specified.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-127">Le <see cref="P:ExchangeWebServices.TaskType.CompleteDateSpecified" /> propriété renvoie <b>la valeur true</b> si les <see cref="P:ExchangeWebServices.TaskType.CompleteDate" /> est de sérialiser la propriété dans la demande SOAP. dans le cas contraire, la propriété renvoie la <b>valeur false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-127">The <see cref="P:ExchangeWebServices.TaskType.CompleteDateSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.TaskType.CompleteDate" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Contacts">
+      <MemberSignature Language="C#" Value="public string[] Contacts { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] Contacts" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.Contacts" />
+      <MemberSignature Language="VB.NET" Value="Public Property Contacts As String()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::String ^&gt; ^ Contacts { cli::array &lt;System::String ^&gt; ^ get(); void set(cli::array &lt;System::String ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("String", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-128">Le <see cref="P:ExchangeWebServices.TaskType.Contacts" /> propriété obtient ou définit une instance d’un tableau de type string qui contient une liste des contacts qui sont associés à une tâche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-128">The <see cref="P:ExchangeWebServices.TaskType.Contacts" /> property gets or sets an instance of an array of type string that contains a list of contacts that are associated with a task.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-129">Le <see cref="P:ExchangeWebServices.TaskType.Contacts" /> propriété renvoie un tableau de type string qui contient une liste des contacts qui sont associés à une tâche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-129">The <see cref="P:ExchangeWebServices.TaskType.Contacts" /> property returns an array of type string that contains a list of contacts that are associated with a task.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DelegationState">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.TaskDelegateStateType DelegationState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.TaskDelegateStateType DelegationState" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.DelegationState" />
+      <MemberSignature Language="VB.NET" Value="Public Property DelegationState As TaskDelegateStateType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::TaskDelegateStateType DelegationState { ExchangeWebServices::TaskDelegateStateType get(); void set(ExchangeWebServices::TaskDelegateStateType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TaskDelegateStateType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-130">Le <see cref="P:ExchangeWebServices.TaskType.DelegationState" /> propriété obtient ou définit une valide de <see cref="T:ExchangeWebServices.TaskDelegateStateType" /> valeurs d’énumération qui représentent l’état d’une tâche déléguée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-130">The <see cref="P:ExchangeWebServices.TaskType.DelegationState" /> property gets or sets one of the valid <see cref="T:ExchangeWebServices.TaskDelegateStateType" /> enumeration values that represent the status of a delegated task.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-131">Le <see cref="P:ExchangeWebServices.TaskType.DelegationState" /> propriété renvoie une valide de <see cref="T:ExchangeWebServices.TaskDelegateStateType" /> valeurs d’énumération qui représentent l’état d’une tâche déléguée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-131">The <see cref="P:ExchangeWebServices.TaskType.DelegationState" /> property returns one of the valid <see cref="T:ExchangeWebServices.TaskDelegateStateType" /> enumeration values that represent the status of a delegated task.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DelegationStateSpecified">
+      <MemberSignature Language="C#" Value="public bool DelegationStateSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DelegationStateSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.DelegationStateSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property DelegationStateSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DelegationStateSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-132">Le <see cref="P:ExchangeWebServices.TaskType.DelegationStateSpecified" /> propriété obtient ou définit une valeur de type Boolean qui indique si les <see cref="P:ExchangeWebServices.TaskType.DelegationState" /> est de sérialiser la propriété dans la demande SOAP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-132">The <see cref="P:ExchangeWebServices.TaskType.DelegationStateSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.TaskType.DelegationState" /> property is serialized into the SOAP request.</span>
+          </span>
+          <span data-ttu-id="de483-133">Cette propriété est requise si le <see cref="P:ExchangeWebServices.TaskType.DelegationState" /> propriété est spécifiée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-133">This property is required if the <see cref="P:ExchangeWebServices.TaskType.DelegationState" /> property is specified.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-134">Le <see cref="P:ExchangeWebServices.TaskType.DelegationStateSpecified" /> propriété renvoie <b>la valeur true</b> si les <see cref="P:ExchangeWebServices.TaskType.DelegationState" /> est de sérialiser la propriété dans la demande SOAP. dans le cas contraire, la propriété renvoie la <b>valeur false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-134">The <see cref="P:ExchangeWebServices.TaskType.DelegationStateSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.TaskType.DelegationState" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delegator">
+      <MemberSignature Language="C#" Value="public string Delegator { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Delegator" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.Delegator" />
+      <MemberSignature Language="VB.NET" Value="Public Property Delegator As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Delegator { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-135">Le <see cref="P:ExchangeWebServices.TaskType.Delegator" /> propriété obtient ou définit une valeur de type string qui contient le nom de la personne qui a attribué la tâche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-135">The <see cref="P:ExchangeWebServices.TaskType.Delegator" /> property gets or sets a string value that contains the name of the delegator who assigned the task.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-136">Le <see cref="P:ExchangeWebServices.TaskType.Delegator" /> propriété renvoie une valeur de type string qui contient le nom de la personne qui a attribué la tâche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-136">The <see cref="P:ExchangeWebServices.TaskType.Delegator" /> property returns a string value that contains the name of the delegator who assigned the task.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DueDate">
+      <MemberSignature Language="C#" Value="public DateTime DueDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime DueDate" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.DueDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property DueDate As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime DueDate { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-137">Le <see cref="P:ExchangeWebServices.TaskType.DueDate" /> propriété obtient ou définit une instance de la structure DateTime qui représente la date à laquelle la tâche est due.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-137">The <see cref="P:ExchangeWebServices.TaskType.DueDate" /> property gets or sets an instance of the DateTime structure that represents the date when the task is due.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-138">Le <see cref="P:ExchangeWebServices.TaskType.DueDate" /> propriété retourne une instance de la structure DateTime qui représente la date à laquelle la tâche est due.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-138">The <see cref="P:ExchangeWebServices.TaskType.DueDate" /> property returns an instance of the DateTime structure that represents the date when the task is due.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DueDateSpecified">
+      <MemberSignature Language="C#" Value="public bool DueDateSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DueDateSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.DueDateSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property DueDateSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DueDateSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-139">Le <see cref="P:ExchangeWebServices.TaskType.DueDateSpecified" /> propriété obtient ou définit une valeur de type Boolean qui indique si les <see cref="P:ExchangeWebServices.TaskType.DueDate" /> est de sérialiser la propriété dans la demande SOAP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-139">The <see cref="P:ExchangeWebServices.TaskType.DueDateSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.TaskType.DueDate" /> property is serialized into the SOAP request.</span>
+          </span>
+          <span data-ttu-id="de483-140">Cette propriété est requise si le <see cref="P:ExchangeWebServices.TaskType.DueDate" /> propriété est spécifiée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-140">This property is required if the <see cref="P:ExchangeWebServices.TaskType.DueDate" /> property is specified.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-141">Le <see cref="P:ExchangeWebServices.TaskType.DueDateSpecified" /> propriété renvoie <b>la valeur true</b> si les <see cref="P:ExchangeWebServices.TaskType.DueDate" /> est de sérialiser la propriété dans la demande SOAP. dans le cas contraire, la propriété renvoie la <b>valeur false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-141">The <see cref="P:ExchangeWebServices.TaskType.DueDateSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.TaskType.DueDate" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAssignmentEditable">
+      <MemberSignature Language="C#" Value="public int IsAssignmentEditable { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 IsAssignmentEditable" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.IsAssignmentEditable" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsAssignmentEditable As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int IsAssignmentEditable { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-142">Le <see cref="P:ExchangeWebServices.TaskType.IsAssignmentEditable" /> propriété obtient ou définit une valeur integer qui représente le type de tâche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-142">The <see cref="P:ExchangeWebServices.TaskType.IsAssignmentEditable" /> property gets or sets an integer value that represents the task type.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-143">Le <see cref="P:ExchangeWebServices.TaskType.IsAssignmentEditable" /> propriété renvoie une valeur entière qui représente le type de tâche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-143">The <see cref="P:ExchangeWebServices.TaskType.IsAssignmentEditable" /> property returns an integer value that represents the task type.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="de483-144">
+            <para>Le tableau suivant répertorie les valeurs possibles pour le <see cref="P:ExchangeWebServices.TaskType.IsAssignmentEditable" /> propriété.</para>
+            <list type="table">
+              <item>
+                <term>0</term>
+                <description>la valeur par défaut pour tous les éléments de tâche.</description>
+              </item>
+              <item>
+                <term>1</term>
+                <description>une demande de tâche.</description>
+              </item>
+              <item>
+                <term>2</term>
+                <description>une acceptation de la tâche à partir d’un destinataire d’une tâche.</description>
+              </item>
+              <item>
+                <term>3</term>
+                <description>un refus de tâche à partir d’un destinataire d’une tâche.</description>
+              </item>
+              <item>
+                <term>4</term>
+                <description>une mise à jour à une demande de tâche précédente.</description>
+              </item>
+              <item>
+                <term>5</term>
+                <description>ne pas utilisé.</description>
+              </item>
+            </list>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-144">
+              <para>The following table lists possible values for the <see cref="P:ExchangeWebServices.TaskType.IsAssignmentEditable" /> property.</para>
+              <list type="table">
+                <item>
+                  <term>0</term>
+                  <description>The default for all task items.</description>
+                </item>
+                <item>
+                  <term>1</term>
+                  <description>A task request.</description>
+                </item>
+                <item>
+                  <term>2</term>
+                  <description>A task acceptance from a recipient of a task.</description>
+                </item>
+                <item>
+                  <term>3</term>
+                  <description>A task declination from a recipient of a task.</description>
+                </item>
+                <item>
+                  <term>4</term>
+                  <description>An update to a previous task request.</description>
+                </item>
+                <item>
+                  <term>5</term>
+                  <description>Not used.</description>
+                </item>
+              </list>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAssignmentEditableSpecified">
+      <MemberSignature Language="C#" Value="public bool IsAssignmentEditableSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAssignmentEditableSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.IsAssignmentEditableSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsAssignmentEditableSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAssignmentEditableSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-145">Le <see cref="P:ExchangeWebServices.TaskType.IsAssignmentEditableSpecified" /> propriété obtient ou définit une valeur de type Boolean qui indique si les <see cref="P:ExchangeWebServices.TaskType.IsAssignmentEditable" /> est de sérialiser la propriété dans la demande SOAP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-145">The <see cref="P:ExchangeWebServices.TaskType.IsAssignmentEditableSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.TaskType.IsAssignmentEditable" /> property is serialized into the SOAP request.</span>
+          </span>
+          <span data-ttu-id="de483-146">Cette propriété est requise si le <see cref="P:ExchangeWebServices.TaskType.IsAssignmentEditable" /> propriété est spécifiée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-146">This property is required if the <see cref="P:ExchangeWebServices.TaskType.IsAssignmentEditable" /> property is specified.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-147">Le <see cref="P:ExchangeWebServices.TaskType.IsAssignmentEditableSpecified" /> propriété renvoie <b>la valeur true</b> si les <see cref="P:ExchangeWebServices.TaskType.IsAssignmentEditable" /> est de sérialiser la propriété dans la demande SOAP. dans le cas contraire, la propriété renvoie la <b>valeur false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-147">The <see cref="P:ExchangeWebServices.TaskType.IsAssignmentEditableSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.TaskType.IsAssignmentEditable" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsComplete">
+      <MemberSignature Language="C#" Value="public bool IsComplete { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsComplete" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.IsComplete" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsComplete As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsComplete { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-148">Le <see cref="P:ExchangeWebServices.TaskType.IsComplete" /> propriété obtient ou définit une valeur de type Boolean qui indique si la tâche est terminée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-148">The <see cref="P:ExchangeWebServices.TaskType.IsComplete" /> property gets or sets a Boolean value that indicates whether the task has been completed.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-149">Le <see cref="P:ExchangeWebServices.TaskType.IsComplete" /> propriété renvoie <b>la valeur true</b> si la tâche est terminée ; dans le cas contraire, la propriété renvoie la <b>valeur false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-149">The <see cref="P:ExchangeWebServices.TaskType.IsComplete" /> property returns <b>true</b> if the task has been completed; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsCompleteSpecified">
+      <MemberSignature Language="C#" Value="public bool IsCompleteSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsCompleteSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.IsCompleteSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsCompleteSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsCompleteSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-150">Le <see cref="P:ExchangeWebServices.TaskType.IsCompleteSpecified" /> propriété obtient ou définit une valeur de type Boolean qui indique si les <see cref="P:ExchangeWebServices.TaskType.IsComplete" /> est de sérialiser la propriété dans la demande SOAP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-150">The <see cref="P:ExchangeWebServices.TaskType.IsCompleteSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.TaskType.IsComplete" /> property is serialized into the SOAP request.</span>
+          </span>
+          <span data-ttu-id="de483-151">Cette propriété est requise si le <see cref="P:ExchangeWebServices.TaskType.IsComplete" /> propriété est spécifiée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-151">This property is required if the <see cref="P:ExchangeWebServices.TaskType.IsComplete" /> property is specified.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-152">Le <see cref="P:ExchangeWebServices.TaskType.IsCompleteSpecified" /> propriété renvoie <b>la valeur true</b> si les <see cref="P:ExchangeWebServices.TaskType.IsComplete" /> est de sérialiser la propriété dans la demande SOAP. dans le cas contraire, la propriété renvoie la <b>valeur false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-152">The <see cref="P:ExchangeWebServices.TaskType.IsCompleteSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.TaskType.IsComplete" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsRecurring">
+      <MemberSignature Language="C#" Value="public bool IsRecurring { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsRecurring" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.IsRecurring" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsRecurring As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsRecurring { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-153">Le <see cref="P:ExchangeWebServices.TaskType.IsRecurring" /> propriété obtient ou définit une valeur de type Boolean qui indique si la tâche fait partie d’une tâche périodique.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-153">The <see cref="P:ExchangeWebServices.TaskType.IsRecurring" /> property gets or sets a Boolean value that indicates whether the task is part of a recurring task.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-154">Le <see cref="P:ExchangeWebServices.TaskType.IsRecurring" /> propriété renvoie <b>la valeur true</b> si la tâche fait partie d’une tâche périodique. dans le cas contraire, la propriété renvoie la <b>valeur false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-154">The <see cref="P:ExchangeWebServices.TaskType.IsRecurring" /> property returns <b>true</b> if the task is part of a recurring task; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsRecurringSpecified">
+      <MemberSignature Language="C#" Value="public bool IsRecurringSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsRecurringSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.IsRecurringSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsRecurringSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsRecurringSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-155">Le <see cref="P:ExchangeWebServices.TaskType.IsRecurringSpecified" /> propriété obtient ou définit une valeur de type Boolean qui indique si les <see cref="P:ExchangeWebServices.TaskType.IsRecurring" /> est de sérialiser la propriété dans la demande SOAP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-155">The <see cref="P:ExchangeWebServices.TaskType.IsRecurringSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.TaskType.IsRecurring" /> property is serialized into the SOAP request.</span>
+          </span>
+          <span data-ttu-id="de483-156">Cette propriété est requise si le <see cref="P:ExchangeWebServices.TaskType.IsRecurring" /> propriété est spécifiée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-156">This property is required if the <see cref="P:ExchangeWebServices.TaskType.IsRecurring" /> property is specified.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-157">Le <see cref="P:ExchangeWebServices.TaskType.IsRecurringSpecified" /> propriété renvoie <b>la valeur true</b> si les <see cref="P:ExchangeWebServices.TaskType.IsRecurring" /> est de sérialiser la propriété dans la demande SOAP. dans le cas contraire, la propriété renvoie la <b>valeur false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-157">The <see cref="P:ExchangeWebServices.TaskType.IsRecurringSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.TaskType.IsRecurring" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsTeamTask">
+      <MemberSignature Language="C#" Value="public bool IsTeamTask { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsTeamTask" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.IsTeamTask" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsTeamTask As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsTeamTask { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-158">Le <see cref="P:ExchangeWebServices.TaskType.IsTeamTask" /> propriété obtient ou définit une valeur de type Boolean qui indique si la tâche est appartenant à une équipe.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-158">The <see cref="P:ExchangeWebServices.TaskType.IsTeamTask" /> property gets or sets a Boolean value that indicates whether the task is owned by a team.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-159">Le <see cref="P:ExchangeWebServices.TaskType.IsTeamTask" /> propriété renvoie <b>la valeur true</b> si la tâche est appartient à une équipe ; dans le cas contraire, la propriété renvoie la <b>valeur false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-159">The <see cref="P:ExchangeWebServices.TaskType.IsTeamTask" /> property returns <b>true</b> if the task is owned by a team; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsTeamTaskSpecified">
+      <MemberSignature Language="C#" Value="public bool IsTeamTaskSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsTeamTaskSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.IsTeamTaskSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsTeamTaskSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsTeamTaskSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-160">Le <see cref="P:ExchangeWebServices.TaskType.IsTeamTaskSpecified" /> propriété obtient ou définit une valeur de type Boolean qui indique si le <see cref="P:ExchangeWebServices.TaskType.IsTeamTask" /> propriété est sérialisée en demande theSOAP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-160">The <see cref="P:ExchangeWebServices.TaskType.IsTeamTaskSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.TaskType.IsTeamTask" /> property is serialized into theSOAP request.</span>
+          </span>
+          <span data-ttu-id="de483-161">Cette propriété est requise si le <see cref="P:ExchangeWebServices.TaskType.IsTeamTask" /> propriété est spécifiée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-161">This property is required if the <see cref="P:ExchangeWebServices.TaskType.IsTeamTask" /> property is specified.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-162">Le <see cref="P:ExchangeWebServices.TaskType.IsTeamTaskSpecified" /> propriété renvoie <b>la valeur true</b> si les <see cref="P:ExchangeWebServices.TaskType.IsTeamTask" /> est de sérialiser la propriété dans la demande SOAP. dans le cas contraire, la propriété renvoie la <b>valeur false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-162">The <see cref="P:ExchangeWebServices.TaskType.IsTeamTaskSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.TaskType.IsTeamTask" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mileage">
+      <MemberSignature Language="C#" Value="public string Mileage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Mileage" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.Mileage" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mileage As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Mileage { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-163">Le <see cref="P:ExchangeWebServices.TaskType.Mileage" /> propriété obtient ou définit une valeur de type string qui représente la mileage pour une tâche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-163">The <see cref="P:ExchangeWebServices.TaskType.Mileage" /> property gets or sets a string value that represents the mileage for a task.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-164">Le <see cref="P:ExchangeWebServices.TaskType.Mileage" /> propriété renvoie une valeur de type string qui représente la mileage pour une tâche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-164">The <see cref="P:ExchangeWebServices.TaskType.Mileage" /> property returns a string value that represents the mileage for a task.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Owner">
+      <MemberSignature Language="C#" Value="public string Owner { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Owner" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.Owner" />
+      <MemberSignature Language="VB.NET" Value="Public Property Owner As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Owner { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-165">Le <see cref="P:ExchangeWebServices.TaskType.Owner" /> propriété obtient ou définit une valeur de type string qui représente le propriétaire de la tâche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-165">The <see cref="P:ExchangeWebServices.TaskType.Owner" /> property gets or sets a string value that represents the owner of the task.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-166">Le <see cref="P:ExchangeWebServices.TaskType.Owner" /> propriété renvoie une valeur de type string qui représente le propriétaire de la tâche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-166">The <see cref="P:ExchangeWebServices.TaskType.Owner" /> property returns a string value that represents the owner of the task.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PercentComplete">
+      <MemberSignature Language="C#" Value="public double PercentComplete { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 PercentComplete" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.PercentComplete" />
+      <MemberSignature Language="VB.NET" Value="Public Property PercentComplete As Double" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double PercentComplete { double get(); void set(double value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-167">Le <see cref="P:ExchangeWebServices.TaskType.PercentComplete" /> propriété obtient ou définit une valeur de type double comprise entre 0 et 100 qui décrit l’état d’achèvement d’une tâche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-167">The <see cref="P:ExchangeWebServices.TaskType.PercentComplete" /> property gets or sets a double value from 0 to 100 that describes the completion status of a task.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-168">Le <see cref="P:ExchangeWebServices.TaskType.PercentComplete" /> propriété renvoie une valeur de type double comprise entre 0 et 100 qui décrit l’état d’achèvement d’une tâche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-168">The <see cref="P:ExchangeWebServices.TaskType.PercentComplete" /> property returns a double value from 0 to 100 that describes the completion status of a task.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="de483-169">
+            <para>Définition de la <see cref="P:ExchangeWebServices.TaskType.CompleteDate" /> propriété a le même effet en tant que paramètre de la <see cref="P:ExchangeWebServices.TaskType.PercentComplete" /> propriété à 100 ou la <see cref="P:ExchangeWebServices.TaskType.Status" /> propriété <see cref="F:ExchangeWebServices.TaskStatusType.Completed" />. Dans une demande qu’au moins deux jeux de ces propriétés, la dernière propriété traitée détermine la valeur est définie pour ces éléments. Par exemple, si le <see cref="P:ExchangeWebServices.TaskType.PercentComplete" /> propriété est 100, le <see cref="P:ExchangeWebServices.TaskType.CompleteDate" /> propriété est le 1er janvier 2007 et le <see cref="P:ExchangeWebServices.TaskType.Status" /> propriété est <see cref="F:ExchangeWebServices.TaskStatusType.NotStarted" />et les propriétés sont transmises dans l’ordre, l’effet sera pour définir le <see cref="P:ExchangeWebServices.TaskType.Status" /> propriété de la tâche à <see cref="F:ExchangeWebServices.TaskStatusType.NotStarted" />, le <see cref="P:ExchangeWebServices.TaskType.CompleteDate" />propriété à une référence nulle (Nothing dans Visual Basic) et le <see cref="P:ExchangeWebServices.TaskType.PercentComplete" /> 0 à la propriété.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-169">
+              <para>Setting the <see cref="P:ExchangeWebServices.TaskType.CompleteDate" /> property has the same effect as setting the <see cref="P:ExchangeWebServices.TaskType.PercentComplete" /> property to 100 or the <see cref="P:ExchangeWebServices.TaskType.Status" /> property to <see cref="F:ExchangeWebServices.TaskStatusType.Completed" />. In a request that sets at least two of these properties, the last processed property will determine the value that is set for these elements. For example, if the <see cref="P:ExchangeWebServices.TaskType.PercentComplete" /> property is 100, the <see cref="P:ExchangeWebServices.TaskType.CompleteDate" /> property is January 1, 2007, and the <see cref="P:ExchangeWebServices.TaskType.Status" /> property is <see cref="F:ExchangeWebServices.TaskStatusType.NotStarted" />, and the properties are streamed in that order, the effect will be to set the <see cref="P:ExchangeWebServices.TaskType.Status" /> property of the task to <see cref="F:ExchangeWebServices.TaskStatusType.NotStarted" />, the <see cref="P:ExchangeWebServices.TaskType.CompleteDate" /> property to a null reference (Nothing in Visual Basic), and the <see cref="P:ExchangeWebServices.TaskType.PercentComplete" /> property to 0.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PercentCompleteSpecified">
+      <MemberSignature Language="C#" Value="public bool PercentCompleteSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool PercentCompleteSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.PercentCompleteSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property PercentCompleteSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool PercentCompleteSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-170">Le <see cref="P:ExchangeWebServices.TaskType.PercentCompleteSpecified" /> propriété obtient ou définit une valeur de type Boolean qui indique si les <see cref="P:ExchangeWebServices.TaskType.PercentComplete" /> est de sérialiser la propriété dans la demande SOAP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-170">The <see cref="P:ExchangeWebServices.TaskType.PercentCompleteSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.TaskType.PercentComplete" /> property is serialized into the SOAP request.</span>
+          </span>
+          <span data-ttu-id="de483-171">Cette propriété est requise si le <see cref="P:ExchangeWebServices.TaskType.PercentComplete" /> propriété est spécifiée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-171">This property is required if the <see cref="P:ExchangeWebServices.TaskType.PercentComplete" /> property is specified.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-172">Le <see cref="P:ExchangeWebServices.TaskType.PercentCompleteSpecified" /> propriété renvoie <b>la valeur true</b> si les <see cref="P:ExchangeWebServices.TaskType.PercentComplete" /> est de sérialiser la propriété dans la demande SOAP. dans le cas contraire, la propriété renvoie la <b>valeur false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-172">The <see cref="P:ExchangeWebServices.TaskType.PercentCompleteSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.TaskType.PercentComplete" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Recurrence">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.TaskRecurrenceType Recurrence { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.TaskRecurrenceType Recurrence" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.Recurrence" />
+      <MemberSignature Language="VB.NET" Value="Public Property Recurrence As TaskRecurrenceType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::TaskRecurrenceType ^ Recurrence { ExchangeWebServices::TaskRecurrenceType ^ get(); void set(ExchangeWebServices::TaskRecurrenceType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TaskRecurrenceType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-173">Le <see cref="P:ExchangeWebServices.TaskType.Recurrence" /> propriété obtient ou définit une instance de le <see cref="T:ExchangeWebServices.TaskRecurrenceType" /> classe qui contient des informations de périodicité d’une tâche périodique.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-173">The <see cref="P:ExchangeWebServices.TaskType.Recurrence" /> property gets or sets an instance of the <see cref="T:ExchangeWebServices.TaskRecurrenceType" /> class that contains recurrence information for a recurring task.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-174">Le <see cref="P:ExchangeWebServices.TaskType.Recurrence" /> propriété retourne une instance de le <see cref="T:ExchangeWebServices.TaskRecurrenceType" /> classe qui contient des informations de périodicité d’une tâche périodique.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-174">The <see cref="P:ExchangeWebServices.TaskType.Recurrence" /> property returns an instance of the <see cref="T:ExchangeWebServices.TaskRecurrenceType" /> class that contains recurrence information for a recurring task.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartDate">
+      <MemberSignature Language="C#" Value="public DateTime StartDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime StartDate" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.StartDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartDate As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime StartDate { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-175">Le <see cref="P:ExchangeWebServices.TaskType.StartDate" /> propriété obtient ou définit une instance de la structure DateTime qui représente la date de début de la tâche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-175">The <see cref="P:ExchangeWebServices.TaskType.StartDate" /> property gets or sets an instance of the DateTime structure that represents the start date of the task.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-176">Le <see cref="P:ExchangeWebServices.TaskType.StartDate" /> propriété retourne une instance de la structure DateTime qui représente la date de début de la tâche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-176">The <see cref="P:ExchangeWebServices.TaskType.StartDate" /> property returns an instance of the DateTime structure that represents the start date of the task.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartDateSpecified">
+      <MemberSignature Language="C#" Value="public bool StartDateSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool StartDateSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.StartDateSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartDateSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool StartDateSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-177">Le <see cref="P:ExchangeWebServices.TaskType.StartDateSpecified" /> propriété obtient ou définit une valeur de type Boolean qui indique si les <see cref="P:ExchangeWebServices.TaskType.StartDate" /> est de sérialiser la propriété dans la demande SOAP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-177">The <see cref="P:ExchangeWebServices.TaskType.StartDateSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.TaskType.StartDate" /> property is serialized into the SOAP request.</span>
+          </span>
+          <span data-ttu-id="de483-178">Cette propriété est requise si le <see cref="P:ExchangeWebServices.TaskType.StartDate" /> propriété est spécifiée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-178">This property is required if the <see cref="P:ExchangeWebServices.TaskType.StartDate" /> property is specified.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-179">Le <see cref="P:ExchangeWebServices.TaskType.StartDateSpecified" /> propriété renvoie <b>la valeur true</b> si les <see cref="P:ExchangeWebServices.TaskType.StartDate" /> est de sérialiser la propriété dans la demande SOAP. dans le cas contraire, la propriété renvoie la <b>valeur false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-179">The <see cref="P:ExchangeWebServices.TaskType.StartDateSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.TaskType.StartDate" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Status">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.TaskStatusType Status { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.TaskStatusType Status" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.Status" />
+      <MemberSignature Language="VB.NET" Value="Public Property Status As TaskStatusType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::TaskStatusType Status { ExchangeWebServices::TaskStatusType get(); void set(ExchangeWebServices::TaskStatusType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TaskStatusType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-180">Le <see cref="P:ExchangeWebServices.TaskType.Status" /> propriété obtient ou définit une valide de <see cref="T:ExchangeWebServices.TaskStatusType" /> valeurs d’énumération qui représentent l’état d’une tâche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-180">The <see cref="P:ExchangeWebServices.TaskType.Status" /> property gets or sets one of the valid <see cref="T:ExchangeWebServices.TaskStatusType" /> enumeration values that represent the status of a task.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-181">Le <see cref="P:ExchangeWebServices.TaskType.Status" /> propriété renvoie une valide de <see cref="T:ExchangeWebServices.TaskStatusType" /> valeurs d’énumération qui représentent l’état d’une tâche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-181">The <see cref="P:ExchangeWebServices.TaskType.Status" /> property returns one of the valid <see cref="T:ExchangeWebServices.TaskStatusType" /> enumeration values that represent the status of a task.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="de483-182">
+            <para>Définition de la <see cref="P:ExchangeWebServices.TaskType.CompleteDate" /> propriété a le même effet en tant que paramètre de la <see cref="P:ExchangeWebServices.TaskType.PercentComplete" /> propriété à 100 ou la <see cref="P:ExchangeWebServices.TaskType.Status" /> propriété <see cref="F:ExchangeWebServices.TaskStatusType.Completed" />. Dans une demande qu’au moins deux jeux de ces propriétés, la dernière propriété traitée détermine la valeur est définie pour ces éléments. Par exemple, si le <see cref="P:ExchangeWebServices.TaskType.PercentComplete" /> propriété est 100, le <see cref="P:ExchangeWebServices.TaskType.CompleteDate" /> propriété est le 1er janvier 2007 et le <see cref="P:ExchangeWebServices.TaskType.Status" /> propriété est <see cref="F:ExchangeWebServices.TaskStatusType.NotStarted" />et les propriétés sont transmises dans l’ordre, l’effet sera pour définir le <see cref="P:ExchangeWebServices.TaskType.Status" /> propriété de la tâche à <see cref="F:ExchangeWebServices.TaskStatusType.NotStarted" />, le <see cref="P:ExchangeWebServices.TaskType.CompleteDate" />propriété à une référence nulle (Nothing dans Visual Basic) et le <see cref="P:ExchangeWebServices.TaskType.PercentComplete" /> 0 à la propriété.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-182">
+              <para>Setting the <see cref="P:ExchangeWebServices.TaskType.CompleteDate" /> property has the same effect as setting the <see cref="P:ExchangeWebServices.TaskType.PercentComplete" /> property to 100 or the <see cref="P:ExchangeWebServices.TaskType.Status" /> property to <see cref="F:ExchangeWebServices.TaskStatusType.Completed" />. In a request that sets at least two of these properties, the last processed property will determine the value that is set for these elements. For example, if the <see cref="P:ExchangeWebServices.TaskType.PercentComplete" /> property is 100, the <see cref="P:ExchangeWebServices.TaskType.CompleteDate" /> property is January 1, 2007, and the <see cref="P:ExchangeWebServices.TaskType.Status" /> property is <see cref="F:ExchangeWebServices.TaskStatusType.NotStarted" />, and the properties are streamed in that order, the effect will be to set the <see cref="P:ExchangeWebServices.TaskType.Status" /> property of the task to <see cref="F:ExchangeWebServices.TaskStatusType.NotStarted" />, the <see cref="P:ExchangeWebServices.TaskType.CompleteDate" /> property to a null reference (Nothing in Visual Basic), and the <see cref="P:ExchangeWebServices.TaskType.PercentComplete" /> property to 0.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StatusDescription">
+      <MemberSignature Language="C#" Value="public string StatusDescription { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string StatusDescription" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.StatusDescription" />
+      <MemberSignature Language="VB.NET" Value="Public Property StatusDescription As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ StatusDescription { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-183">Le <see cref="P:ExchangeWebServices.TaskType.StatusDescription" /> propriété obtient ou définit une valeur de type string qui contient une explication de l’état de la tâche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-183">The <see cref="P:ExchangeWebServices.TaskType.StatusDescription" /> property gets or sets a string value that contains an explanation of the status of the task.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-184">Le <see cref="P:ExchangeWebServices.TaskType.StatusDescription" /> propriété renvoie une valeur de type string qui contient une explication de l’état de la tâche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-184">The <see cref="P:ExchangeWebServices.TaskType.StatusDescription" /> property returns a string value that contains an explanation of the status of the task.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StatusSpecified">
+      <MemberSignature Language="C#" Value="public bool StatusSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool StatusSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.StatusSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property StatusSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool StatusSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-185">Le <see cref="P:ExchangeWebServices.TaskType.StatusSpecified" /> propriété obtient ou définit une valeur de type Boolean qui indique si les <see cref="P:ExchangeWebServices.TaskType.Status" /> est de sérialiser la propriété dans la demande SOAP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-185">The <see cref="P:ExchangeWebServices.TaskType.StatusSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.TaskType.Status" /> property is serialized into the SOAP request.</span>
+          </span>
+          <span data-ttu-id="de483-186">Cette propriété est requise si le <see cref="P:ExchangeWebServices.TaskType.Status" /> propriété est spécifiée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-186">This property is required if the <see cref="P:ExchangeWebServices.TaskType.Status" /> property is specified.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-187">Le <see cref="P:ExchangeWebServices.TaskType.StatusSpecified" /> propriété renvoie <b>la valeur true</b> si les <see cref="P:ExchangeWebServices.TaskType.Status" /> est de sérialiser la propriété dans la demande SOAP. dans le cas contraire, la propriété renvoie la <b>valeur false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-187">The <see cref="P:ExchangeWebServices.TaskType.StatusSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.TaskType.Status" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalWork">
+      <MemberSignature Language="C#" Value="public int TotalWork { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TotalWork" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.TotalWork" />
+      <MemberSignature Language="VB.NET" Value="Public Property TotalWork As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int TotalWork { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-188">Le <see cref="P:ExchangeWebServices.TaskType.TotalWork" /> propriété obtient ou définit une valeur integer qui représente la quantité totale de travail qui est associé à la tâche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-188">The <see cref="P:ExchangeWebServices.TaskType.TotalWork" /> property gets or sets an integer value that represents the total amount of work that is associated with the task.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-189">Le <see cref="P:ExchangeWebServices.TaskType.TotalWork" /> propriété renvoie une valeur entière qui représente la quantité totale de travail qui est associé à la tâche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-189">The <see cref="P:ExchangeWebServices.TaskType.TotalWork" /> property returns an integer value that represents the total amount of work that is associated with the task.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalWorkSpecified">
+      <MemberSignature Language="C#" Value="public bool TotalWorkSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TotalWorkSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskType.TotalWorkSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property TotalWorkSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TotalWorkSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de483-190">Le <see cref="P:ExchangeWebServices.TaskType.TotalWorkSpecified" /> propriété obtient ou définit une valeur de type Boolean qui indique si les <see cref="P:ExchangeWebServices.TaskType.TotalWork" /> est de sérialiser la propriété dans la demande SOAP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-190">The <see cref="P:ExchangeWebServices.TaskType.TotalWorkSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.TaskType.TotalWork" /> property is serialized into the SOAP request.</span>
+          </span>
+          <span data-ttu-id="de483-191">Cette propriété est requise si le <see cref="P:ExchangeWebServices.TaskType.TotalWork" /> propriété est spécifiée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-191">This property is required if the <see cref="P:ExchangeWebServices.TaskType.TotalWork" /> property is specified.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="de483-192">Le <see cref="P:ExchangeWebServices.TaskType.TotalWorkSpecified" /> propriété renvoie <b>la valeur true</b> si les <see cref="P:ExchangeWebServices.TaskType.TotalWork" /> est de sérialiser la propriété dans la demande SOAP. dans le cas contraire, la propriété renvoie la <b>valeur false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de483-192">The <see cref="P:ExchangeWebServices.TaskType.TotalWorkSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.TaskType.TotalWork" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

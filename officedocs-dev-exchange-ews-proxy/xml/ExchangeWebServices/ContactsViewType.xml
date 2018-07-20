@@ -1,0 +1,181 @@
+<Type Name="ContactsViewType" FullName="ExchangeWebServices.ContactsViewType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ecfc099cf1b48f0306ff6c59f229621cd6200504" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20604480" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ContactsViewType : ExchangeWebServices.BasePagingType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ContactsViewType extends ExchangeWebServices.BasePagingType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ContactsViewType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ContactsViewType&#xA;Inherits BasePagingType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ContactsViewType : ExchangeWebServices::BasePagingType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BasePagingType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="ef5dd-101">Le <see cref="T:ExchangeWebServices.ContactsViewType" /> classe représente les paramètres qui sont utilisés pour retourner des éléments de contact en fonction de leurs noms complets alphabétiques.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ef5dd-101">The <see cref="T:ExchangeWebServices.ContactsViewType" /> class represents the settings that are used to return contact items based on their alphabetical display names.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="ef5dd-102">
+        <para>Ce type est utilisé uniquement dans les demandes d’opération FindItem.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ef5dd-102">
+          <para>This type is only used in FindItem operation requests.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ContactsViewType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ContactsViewType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ContactsViewType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="ef5dd-103">Le <see cref="T:ExchangeWebServices.ContactsViewType" /> constructeur initialise une nouvelle instance de le <see cref="T:ExchangeWebServices.ContactsViewType" /> classe.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ef5dd-103">The <see cref="T:ExchangeWebServices.ContactsViewType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.ContactsViewType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FinalName">
+      <MemberSignature Language="C#" Value="public string FinalName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FinalName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactsViewType.FinalName" />
+      <MemberSignature Language="VB.NET" Value="Public Property FinalName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FinalName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ef5dd-104">Le <see cref="P:ExchangeWebServices.ContactsViewType.FinalName" /> propriété définit le nom de famille dans une liste de contacts pour retourner une réponse FindItem.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ef5dd-104">The <see cref="P:ExchangeWebServices.ContactsViewType.FinalName" /> property sets the last name in a contacts list to return in a FindItem response.</span>
+          </span>
+          <span data-ttu-id="ef5dd-105">Cette propriété est facultative.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ef5dd-105">This property is optional.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ef5dd-106">Le <see cref="P:ExchangeWebServices.ContactsViewType.FinalName" /> propriété renvoie le nom du contact final à renvoyer.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ef5dd-106">The <see cref="P:ExchangeWebServices.ContactsViewType.FinalName" /> property returns the name of the final contact to return.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="ef5dd-107">
+            <para>Si le <see cref="P:ExchangeWebServices.ContactsViewType.FinalName" /> propriété n’est pas définie, la réponse contient tous les contacts suivants dans l’ordre de tri spécifié. Si le nom de la dernière spécifié n’est pas dans la liste des contacts, le nom suivant alphabétique tel que défini par le contexte culturel sera exclu.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ef5dd-107">
+              <para>If the <see cref="P:ExchangeWebServices.ContactsViewType.FinalName" /> property is not set, the response will contain all subsequent contacts in the specified sort order. If the specified final name is not in the contacts list, the next alphabetical name as defined by the cultural context will be excluded.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InitialName">
+      <MemberSignature Language="C#" Value="public string InitialName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InitialName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ContactsViewType.InitialName" />
+      <MemberSignature Language="VB.NET" Value="Public Property InitialName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InitialName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ef5dd-108">Le <see cref="P:ExchangeWebServices.ContactsViewType.InitialName" /> propriété définit le premier nom dans une liste de contacts pour retourner une réponse FindItem.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ef5dd-108">The <see cref="P:ExchangeWebServices.ContactsViewType.InitialName" /> property sets the first name in a contacts list to return in a FindItem response.</span>
+          </span>
+          <span data-ttu-id="ef5dd-109">Cette propriété est facultative.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ef5dd-109">This property is optional.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ef5dd-110">Le <see cref="P:ExchangeWebServices.ContactsViewType.InitialName" /> propriété renvoie le nom du premier contact à renvoyer.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ef5dd-110">The <see cref="P:ExchangeWebServices.ContactsViewType.InitialName" /> property returns the name of the first contact to return.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="ef5dd-111">
+            <para>Si le <see cref="P:ExchangeWebServices.ContactsViewType.InitialName" /> propriété n’est pas définie, la réponse contient une liste des contacts qui commence par le premier nom dans la liste des contacts. Si le nom initial spécifié n’est pas dans la liste des contacts, le nom suivant alphabétique tel que défini par le contexte culturel s’afficheront, sauf si le nom suivant vient après le nom qui est spécifié par le <see cref="P:ExchangeWebServices.ContactsViewType.FinalName" /> propriété.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ef5dd-111">
+              <para>If the <see cref="P:ExchangeWebServices.ContactsViewType.InitialName" /> property is not set, the response will contain a list of contacts that begins with the first name in the contact list. If the specified initial name is not in the contacts list, the next alphabetical name as defined by the cultural context will be returned, except if the next name comes after the name that is specified by the <see cref="P:ExchangeWebServices.ContactsViewType.FinalName" /> property.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

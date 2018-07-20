@@ -1,0 +1,144 @@
+<Type Name="ConflictResolutionType" FullName="ExchangeWebServices.ConflictResolutionType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8d3b82cb6dd4f8a0d6f314137d4eac53f1d847e7" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20605110" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum ConflictResolutionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed ConflictResolutionType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ConflictResolutionType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ConflictResolutionType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ConflictResolutionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="46951-101">Le <see cref="T:ExchangeWebServices.ConflictResolutionType" /> énumération indique comment un conflit est géré pendant une opération UpdateItem.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="46951-101">The <see cref="T:ExchangeWebServices.ConflictResolutionType" /> enumeration specifies how a conflict is handled during an UpdateItem operation.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="46951-102">
+        <para>Cette énumération est utilisée par la <see cref="P:ExchangeWebServices.UpdateItemType.ConflictResolution" /> propriété de la <see cref="T:ExchangeWebServices.UpdateItemType" /> objet. Un conflit se produit lorsqu’un client tente de mettre à jour une propriété qui a déjà été définie.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="46951-102">
+          <para>This enumeration is used by the <see cref="P:ExchangeWebServices.UpdateItemType.ConflictResolution" /> property of the <see cref="T:ExchangeWebServices.UpdateItemType" /> object. A conflict occurs when a client tries to update a property that has already been set. </para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AlwaysOverwrite">
+      <MemberSignature Language="C#" Value="AlwaysOverwrite" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ConflictResolutionType AlwaysOverwrite = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ConflictResolutionType.AlwaysOverwrite" />
+      <MemberSignature Language="VB.NET" Value="AlwaysOverwrite" />
+      <MemberSignature Language="C++ CLI" Value="AlwaysOverwrite" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ConflictResolutionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46951-103">S’il existe un conflit, l’opération UpdateItem remplacera les informations.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46951-103">If there is a conflict, the UpdateItem operation will overwrite information.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoResolve">
+      <MemberSignature Language="C#" Value="AutoResolve" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ConflictResolutionType AutoResolve = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ConflictResolutionType.AutoResolve" />
+      <MemberSignature Language="VB.NET" Value="AutoResolve" />
+      <MemberSignature Language="C++ CLI" Value="AutoResolve" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ConflictResolutionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46951-104">L’opération UpdateItem résout automatiquement tout conflit.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46951-104">The UpdateItem operation automatically resolves any conflict.</span>
+          </span>
+          <span data-ttu-id="46951-105">L’option de résolution automatique remplacera dans la plupart des cas, la valeur d’une propriété existante.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46951-105">The AutoResolve option will in most cases overwrite the existing value for a property.</span>
+          </span>
+          <span data-ttu-id="46951-106">Dans certains cas, la nouvelle valeur est ignorée et la valeur d’origine est conservée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46951-106">In some cases, the new value is ignored and the original value is retained.</span>
+          </span>
+          <span data-ttu-id="46951-107">Par exemple, l’utilisateur A modifie la propriété Sensitivity normal sur confidentiel.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46951-107">For example, user A changes the Sensitivity property from Normal to Confidential.</span>
+          </span>
+          <span data-ttu-id="46951-108">L’utilisateur B définit la valeur public.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46951-108">Then user B sets the value to Public.</span>
+          </span>
+          <span data-ttu-id="46951-109">Dans cet exemple, le paramètre de confidentialité est conservé et mise à jour de l’utilisateur B est ignorée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46951-109">In this example, the Confidential setting is retained and user B's update is ignored.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NeverOverwrite">
+      <MemberSignature Language="C#" Value="NeverOverwrite" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ConflictResolutionType NeverOverwrite = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ConflictResolutionType.NeverOverwrite" />
+      <MemberSignature Language="VB.NET" Value="NeverOverwrite" />
+      <MemberSignature Language="C++ CLI" Value="NeverOverwrite" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ConflictResolutionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46951-110">En cas de conflit, l’opération UpdateItem échoue et une erreur est renvoyée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46951-110">If conflict exists, the UpdateItem operation fails and an error is returned.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

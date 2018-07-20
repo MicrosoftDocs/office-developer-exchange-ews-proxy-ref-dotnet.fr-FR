@@ -1,0 +1,106 @@
+<Type Name="BaseItemIdType" FullName="ExchangeWebServices.BaseItemIdType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4d1fe6f69eee55a1812fe9c0b87ce7738e0626b8" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20605619" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class BaseItemIdType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract serializable beforefieldinit BaseItemIdType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.BaseItemIdType" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class BaseItemIdType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class BaseItemIdType abstract" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.RecurringMasterItemIdRangesType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.RecurringMasterItemIdType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.OccurrenceItemIdType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.ItemIdType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.RequestAttachmentIdType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.RootItemIdType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.AttachmentIdType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="aa24d-101">Le <see cref="T:ExchangeWebServices.BaseItemIdType" /> classe représente la classe de base pour les identificateurs qui représentent des éléments dans une boîte aux lettres.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="aa24d-101">The <see cref="T:ExchangeWebServices.BaseItemIdType" /> class represents the base class for IDs that represent items in a mailbox.</span>
+      </span>
+      <span data-ttu-id="aa24d-102">Ceci est une classe abstraite et par conséquent, ne se produit pas dans une instance de document.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="aa24d-102">This is an abstract class and therefore will not occur in an instance document.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="aa24d-103">
+        <para>Cet élément est un type de base abstrait pour les identificateurs d’élément. Cet élément n’est pas utilisé dans les appels de service Web.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="aa24d-103">
+          <para>This element is an abstract base type for item identifiers. This element is not used in Web service calls.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected BaseItemIdType ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.BaseItemIdType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; BaseItemIdType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="aa24d-104">Le <see cref="T:ExchangeWebServices.BaseItemIdType" /> constructeur initialise une nouvelle instance de le <see cref="T:ExchangeWebServices.BaseItemIdType" /> classe.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="aa24d-104">The <see cref="T:ExchangeWebServices.BaseItemIdType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.BaseItemIdType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,272 @@
+<Type Name="DelegateUserType" FullName="ExchangeWebServices.DelegateUserType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="1f2cd7ba21bd5247632b363d4370b355e5604180" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20605692" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class DelegateUserType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit DelegateUserType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.DelegateUserType" />
+  <TypeSignature Language="VB.NET" Value="Public Class DelegateUserType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DelegateUserType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="84702-101">Le <see cref="T:ExchangeWebServices.DelegateUserType" /> classe identifie un délégué pour ajouter ou mettre à jour dans une boîte aux lettres unique, ou un délégué qui est retourné dans une réponse de gestion de délégué.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="84702-101">The <see cref="T:ExchangeWebServices.DelegateUserType" /> class identifies a single delegate to add or update in a mailbox, or a delegate that is returned in a delegate management response.</span>
+      </span>
+      <span data-ttu-id="84702-102">Cette classe est une nouveauté dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="84702-102">This class was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DelegateUserType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.DelegateUserType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DelegateUserType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="84702-103">Le <see cref="T:ExchangeWebServices.DelegateUserType" /> constructeur initialise une nouvelle instance de le <see cref="T:ExchangeWebServices.DelegateUserType" /> classe.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="84702-103">The <see cref="T:ExchangeWebServices.DelegateUserType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.DelegateUserType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DelegatePermissions">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.DelegatePermissionsType DelegatePermissions { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.DelegatePermissionsType DelegatePermissions" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DelegateUserType.DelegatePermissions" />
+      <MemberSignature Language="VB.NET" Value="Public Property DelegatePermissions As DelegatePermissionsType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::DelegatePermissionsType ^ DelegatePermissions { ExchangeWebServices::DelegatePermissionsType ^ get(); void set(ExchangeWebServices::DelegatePermissionsType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DelegatePermissionsType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="84702-104">Le <see cref="P:ExchangeWebServices.DelegateUserType.DelegatePermissions" /> propriété obtient ou définit les paramètres de niveau d’autorisation pour le délégué.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="84702-104">The <see cref="P:ExchangeWebServices.DelegateUserType.DelegatePermissions" /> property gets or sets the permission-level settings for the delegate.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="84702-105">Le <see cref="P:ExchangeWebServices.DelegateUserType.DelegatePermissions" /> propriété renvoie une de la <see cref="T:ExchangeWebServices.DelegatePermissionsType" /> valeurs d’énumération qui indiquent les autorisations pour le délégué.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="84702-105">The <see cref="P:ExchangeWebServices.DelegateUserType.DelegatePermissions" /> property returns one of the <see cref="T:ExchangeWebServices.DelegatePermissionsType" /> enumeration values that indicate the permissions for the delegate.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReceiveCopiesOfMeetingMessages">
+      <MemberSignature Language="C#" Value="public bool ReceiveCopiesOfMeetingMessages { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReceiveCopiesOfMeetingMessages" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DelegateUserType.ReceiveCopiesOfMeetingMessages" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReceiveCopiesOfMeetingMessages As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReceiveCopiesOfMeetingMessages { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="84702-106">Le <see cref="P:ExchangeWebServices.DelegateUserType.ReceiveCopiesOfMeetingMessages" /> propriété obtient ou définit une valeur de type Boolean qui indique si le délégué reçoit une copie des messages adressés à l’entité de sécurité liées à la réunion.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="84702-106">The <see cref="P:ExchangeWebServices.DelegateUserType.ReceiveCopiesOfMeetingMessages" /> property gets or sets a Boolean value that indicates whether the delegate receives copies of meeting-related messages that are addressed to the principal.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="84702-107">Le <see cref="P:ExchangeWebServices.DelegateUserType.ReceiveCopiesOfMeetingMessages" /> propriété renvoie <b>la valeur true</b> si le délégué reçoit les messages liés à la réunion qui sont adressés à l’entité de sécurité ; dans le cas contraire, la propriété renvoie la <b>valeur false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="84702-107">The <see cref="P:ExchangeWebServices.DelegateUserType.ReceiveCopiesOfMeetingMessages" /> property returns <b>true</b> if the delegate receives meeting-related messages that are addressed to the principal; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReceiveCopiesOfMeetingMessagesSpecified">
+      <MemberSignature Language="C#" Value="public bool ReceiveCopiesOfMeetingMessagesSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReceiveCopiesOfMeetingMessagesSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DelegateUserType.ReceiveCopiesOfMeetingMessagesSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReceiveCopiesOfMeetingMessagesSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReceiveCopiesOfMeetingMessagesSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="84702-108">Le <see cref="P:ExchangeWebServices.DelegateUserType.ReceiveCopiesOfMeetingMessagesSpecified" /> propriété obtient ou définit une valeur de type Boolean qui indique si le <see cref="P:ExchangeWebServices.DelegateUserType.ReceiveCopiesOfMeetingMessages" /> propriété est sérialisée dans le message SOAP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="84702-108">The <see cref="P:ExchangeWebServices.DelegateUserType.ReceiveCopiesOfMeetingMessagesSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.DelegateUserType.ReceiveCopiesOfMeetingMessages" /> property is serialized into the SOAP message.</span>
+          </span>
+          <span data-ttu-id="84702-109">Cette propriété est requise si le <see cref="P:ExchangeWebServices.DelegateUserType.ReceiveCopiesOfMeetingMessages" /> propriété est spécifiée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="84702-109">This property is required if the <see cref="P:ExchangeWebServices.DelegateUserType.ReceiveCopiesOfMeetingMessages" /> property is specified.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="84702-110">Le <see cref="P:ExchangeWebServices.DelegateUserType.ReceiveCopiesOfMeetingMessagesSpecified" /> propriété renvoie <b>la valeur true</b> si le <see cref="P:ExchangeWebServices.DelegateUserType.ReceiveCopiesOfMeetingMessages" /> a été de sérialiser la propriété dans le message SOAP ; dans le cas contraire, la propriété renvoie la <b>valeur false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="84702-110">The <see cref="P:ExchangeWebServices.DelegateUserType.ReceiveCopiesOfMeetingMessagesSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.DelegateUserType.ReceiveCopiesOfMeetingMessages" /> property was serialized in the SOAP message; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserId">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.UserIdType UserId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.UserIdType UserId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DelegateUserType.UserId" />
+      <MemberSignature Language="VB.NET" Value="Public Property UserId As UserIdType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::UserIdType ^ UserId { ExchangeWebServices::UserIdType ^ get(); void set(ExchangeWebServices::UserIdType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.UserIdType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="84702-111">Le <see cref="P:ExchangeWebServices.DelegateUserType.UserId" /> propriété obtient ou définit une valeur qui identifie le délégué.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="84702-111">The <see cref="P:ExchangeWebServices.DelegateUserType.UserId" /> property gets or sets a value that identifies the delegate.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="84702-112">Le <see cref="P:ExchangeWebServices.DelegateUserType.UserId" /> propriété retourne un <see cref="T:ExchangeWebServices.UserIdType" /> objet qui identifie le délégué.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="84702-112">The <see cref="P:ExchangeWebServices.DelegateUserType.UserId" /> property returns a <see cref="T:ExchangeWebServices.UserIdType" /> object that identifies the delegate.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ViewPrivateItems">
+      <MemberSignature Language="C#" Value="public bool ViewPrivateItems { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ViewPrivateItems" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DelegateUserType.ViewPrivateItems" />
+      <MemberSignature Language="VB.NET" Value="Public Property ViewPrivateItems As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ViewPrivateItems { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="84702-113">Le <see cref="P:ExchangeWebServices.DelegateUserType.ViewPrivateItems" /> propriété obtient ou définit une valeur de type Boolean qui indique si le délégué a l’autorisation d’afficher des éléments de calendrier privés sur le calendrier de l’entité de sécurité.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="84702-113">The <see cref="P:ExchangeWebServices.DelegateUserType.ViewPrivateItems" /> property gets or sets a Boolean value that indicates whether the delegate has permission to view private calendar items on the principal's calendar.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="84702-114">Le <see cref="P:ExchangeWebServices.DelegateUserType.ViewPrivateItems" /> propriété renvoie <b>la valeur true</b> si le délégué a l’autorisation d’afficher des éléments de calendrier privés de calendrier de l’entité de sécurité ; dans le cas contraire, la propriété renvoie la <b>valeur false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="84702-114">The <see cref="P:ExchangeWebServices.DelegateUserType.ViewPrivateItems" /> property returns <b>true</b> if the delegate has permission to view private calendar items on the principal's calendar; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ViewPrivateItemsSpecified">
+      <MemberSignature Language="C#" Value="public bool ViewPrivateItemsSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ViewPrivateItemsSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DelegateUserType.ViewPrivateItemsSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ViewPrivateItemsSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ViewPrivateItemsSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="84702-115">Le <see cref="P:ExchangeWebServices.DelegateUserType.ViewPrivateItemsSpecified" /> propriété obtient ou définit une valeur de type Boolean qui indique si le <see cref="P:ExchangeWebServices.DelegateUserType.ViewPrivateItems" /> propriété est sérialisée dans le message SOAP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="84702-115">The <see cref="P:ExchangeWebServices.DelegateUserType.ViewPrivateItemsSpecified" /> property gets or sets a Boolean value that indicates whether the <see cref="P:ExchangeWebServices.DelegateUserType.ViewPrivateItems" /> property is serialized into the SOAP message.</span>
+          </span>
+          <span data-ttu-id="84702-116">Cette propriété est requise si le <see cref="P:ExchangeWebServices.DelegateUserType.ViewPrivateItems" /> propriété est spécifiée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="84702-116">This property is required if the <see cref="P:ExchangeWebServices.DelegateUserType.ViewPrivateItems" /> property is specified.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="84702-117">Le <see cref="P:ExchangeWebServices.DelegateUserType.ViewPrivateItemsSpecified" /> propriété renvoie <b>la valeur true</b> si le <see cref="P:ExchangeWebServices.DelegateUserType.ViewPrivateItems" /> propriété est convertie en message SOAP ; dans le cas contraire, la propriété renvoie la <b>valeur false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="84702-117">The <see cref="P:ExchangeWebServices.DelegateUserType.ViewPrivateItemsSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.DelegateUserType.ViewPrivateItems" /> property is serialized into the SOAP message; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

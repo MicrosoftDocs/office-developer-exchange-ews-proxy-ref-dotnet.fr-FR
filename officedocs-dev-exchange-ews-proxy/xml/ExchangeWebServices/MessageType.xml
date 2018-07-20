@@ -1,0 +1,1054 @@
+<Type Name="MessageType" FullName="ExchangeWebServices.MessageType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="106af571067f2e47b0c1b2ebceb0bc1cdd2d48f8" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20604453" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class MessageType : ExchangeWebServices.ItemType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit MessageType extends ExchangeWebServices.ItemType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.MessageType" />
+  <TypeSignature Language="VB.NET" Value="Public Class MessageType&#xA;Inherits ItemType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MessageType : ExchangeWebServices::ItemType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.ItemType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.MeetingMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.MeetingCancellationMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.MeetingResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.MeetingRequestMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.ResponseObjectCoreType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.ResponseObjectType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.PostReplyItemBaseType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.PostReplyItemType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.RemoveItemType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.ReferenceItemResponseType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.AcceptSharingInvitationType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.SuppressReadReceiptType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.SmartResponseBaseType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.SmartResponseType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.CancelCalendarItemType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.ForwardItemType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.ReplyAllToItemType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.ReplyToItemType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.WellKnownResponseObjectType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.DeclineItemType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.TentativelyAcceptItemType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.AcceptItemType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="96ea0-101">Le <see cref="T:ExchangeWebServices.MessageType" /> classe représente un message électronique d’Exchange dans une boîte aux lettres.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="96ea0-101">The <see cref="T:ExchangeWebServices.MessageType" /> class represents an Exchange e-mail message in a mailbox.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="96ea0-102">
+        <para>Le <see cref="T:ExchangeWebServices.MessageType" /> possède de nombreux membres qui sont en lecture seule, mais qui ont un set de la propriété. Il s’agit d’un objet de la définition dans le fichier de schéma. Par exemple, le <see cref="P:ExchangeWebServices.MessageType.IsRead" /> propriété ne peut pas être définie lorsque vous créez un message. Cette propriété est retournée lorsqu’un élément de message est reçu dans une réponse de l’ordinateur qui exécute Exchange Server 2007.</para>
+        <para>Vous n’avez pas à définir le <see cref="P:ExchangeWebServices.ItemType.ItemClass" /> propriété sur le <see cref="T:ExchangeWebServices.MessageType" /> objet sauf si vous souhaitez créer un sous-type personnalisé de IPM. Note. Le serveur Exchange gère le <see cref="T:ExchangeWebServices.MessageType" /> comme un IPM. Remarque.</para>
+        <para>
+          <see cref="T:ExchangeWebServices.MessageType" /> objets représentent les messages électroniques et tous les autres éléments qui ne sont pas fortement typées dans le schéma Exchange Web Services (EWS). Éléments tels que IPM. Partage et IPM.InfoPath sont renvoyés en tant que <see cref="T:ExchangeWebServices.MessageType" /> objets. Versions d’Exchange Server commençant par Exchange 2010 et Exchange Online ne renvoient pas la base de <see cref="T:ExchangeWebServices.ItemType" /> objet de réponses.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="96ea0-102">
+          <para>The <see cref="T:ExchangeWebServices.MessageType" /> class has many members that are read-only but that have a setter for the property. This is an artifact from the definition in the schema file. For example, the <see cref="P:ExchangeWebServices.MessageType.IsRead" /> property cannot be set when you are creating a message. This property is returned when a message item is received in a response from the computer that is running Exchange Server 2007.</para>
+          <para>You do not have to set the <see cref="P:ExchangeWebServices.ItemType.ItemClass" /> property on the <see cref="T:ExchangeWebServices.MessageType" /> object unless you want to create a custom subtype of IPM.Note. The Exchange server handles the <see cref="T:ExchangeWebServices.MessageType" /> as an IPM.Note.</para>
+          <para>
+            <see cref="T:ExchangeWebServices.MessageType" /> objects represent e-mail messages and all other items that are not strongly typed by the Exchange Web Services (EWS) schema. Items such as IPM.Sharing and IPM.InfoPath are returned as <see cref="T:ExchangeWebServices.MessageType" /> objects. Versions of Exchange Server starting with Exchange 2010 and Exchange Online do not return the base <see cref="T:ExchangeWebServices.ItemType" /> object in responses.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+    <example>
+      <span data-ttu-id="96ea0-103">
+        <para>L’exemple de code suivant montre comment créer un message. Notez qu’un message est renvoyé dans une réponse a nombreuses autres propriétés qui sont définies par le serveur Exchange.</para>
+        <code>static MessageType CreateMessage()
+{ 
+    // Create a meesage.
+    MessageType &lt;span class="label"&gt;message&lt;/span&gt; = new MessageType();
+    
+    // Add recipients to message.
+    &lt;span class="label"&gt;message&lt;/span&gt;.ToRecipients = new EmailAddressType[2];
+    &lt;span class="label"&gt;message&lt;/span&gt;.ToRecipients[0] = new EmailAddressType();
+    &lt;span class="label"&gt;message&lt;/span&gt;.ToRecipients[0].EmailAddress = "user1@example.com";
+    &lt;span class="label"&gt;message&lt;/span&gt;.ToRecipients[1] = new EmailAddressType();
+    &lt;span class="label"&gt;message&lt;/span&gt;.ToRecipients[1].EmailAddress = "user2@example.com";
+    &lt;span class="label"&gt;message&lt;/span&gt;.CcRecipients = new EmailAddressType[1];
+    &lt;span class="label"&gt;message&lt;/span&gt;.CcRecipients[0] = new EmailAddressType();
+    &lt;span class="label"&gt;message&lt;/span&gt;.CcRecipients[0].EmailAddress = "user3@example.com";
+    &lt;span class="label"&gt;message&lt;/span&gt;.BccRecipients = new EmailAddressType[1];
+    &lt;span class="label"&gt;message&lt;/span&gt;.BccRecipients[0] = new EmailAddressType();
+    &lt;span class="label"&gt;message&lt;/span&gt;.BccRecipients[0].EmailAddress = "user4@example.com";
+
+    // Compose e-mail message.
+    &lt;span class="label"&gt;message&lt;/span&gt;.Subject = "High Priority Projects for Q3";
+    &lt;span class="label"&gt;message&lt;/span&gt;.Body = new BodyType();
+    &lt;span class="label"&gt;message&lt;/span&gt;.Body.BodyType1 = BodyTypeType.HTML;
+    &lt;span class="label"&gt;message&lt;/span&gt;.Body.Value = "&amp;lt;html&amp;gt;&amp;lt;body style='font-family: Arial'&amp;gt;&amp;lt;ul&amp;gt;" +
+     "&amp;lt;li&amp;gt;Create budget for next fiscal year.&amp;amp;nbsp;&amp;lt;/li&amp;gt;" + 
+     "&amp;lt;li&amp;gt;Hiring updates.&amp;amp;nbsp;&amp;lt;/li&amp;gt;" + 
+     "&amp;lt;li&amp;gt;Design plan for new facilities.&amp;lt;/li&amp;gt;" + 
+     "&amp;lt;li&amp;gt;Identify new opportunities for operational efficiency.&amp;amp;nbsp;&amp;lt;/li&amp;gt;" +
+     "&amp;lt;/ul&amp;gt;&amp;lt;p&amp;gt;Please provide feedback before the meeting.&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;";
+    &lt;span class="label"&gt;message&lt;/span&gt;.Sensitivity = SensitivityChoicesType.Confidential;
+    &lt;span class="label"&gt;message&lt;/span&gt;.SensitivitySpecified = true;
+    &lt;span class="label"&gt;message&lt;/span&gt;.Categories = new string[2] { "Planning", "FiscalYear_Next" };
+    &lt;span class="label"&gt;message&lt;/span&gt;.Importance = ImportanceChoicesType.High;
+    &lt;span class="label"&gt;message&lt;/span&gt;.ImportanceSpecified = true;
+
+    return &lt;span class="label"&gt;message&lt;/span&gt;;
+}</code>
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="96ea0-103">
+          <para>The following code example shows how to create a message. Note that a message that is returned in a response will have many other properties that are set by the Exchange server.</para>
+          <code>static MessageType CreateMessage()
+{ 
+    // Create a meesage.
+    MessageType &lt;span class="label"&gt;message&lt;/span&gt; = new MessageType();
+    
+    // Add recipients to message.
+    &lt;span class="label"&gt;message&lt;/span&gt;.ToRecipients = new EmailAddressType[2];
+    &lt;span class="label"&gt;message&lt;/span&gt;.ToRecipients[0] = new EmailAddressType();
+    &lt;span class="label"&gt;message&lt;/span&gt;.ToRecipients[0].EmailAddress = "user1@example.com";
+    &lt;span class="label"&gt;message&lt;/span&gt;.ToRecipients[1] = new EmailAddressType();
+    &lt;span class="label"&gt;message&lt;/span&gt;.ToRecipients[1].EmailAddress = "user2@example.com";
+    &lt;span class="label"&gt;message&lt;/span&gt;.CcRecipients = new EmailAddressType[1];
+    &lt;span class="label"&gt;message&lt;/span&gt;.CcRecipients[0] = new EmailAddressType();
+    &lt;span class="label"&gt;message&lt;/span&gt;.CcRecipients[0].EmailAddress = "user3@example.com";
+    &lt;span class="label"&gt;message&lt;/span&gt;.BccRecipients = new EmailAddressType[1];
+    &lt;span class="label"&gt;message&lt;/span&gt;.BccRecipients[0] = new EmailAddressType();
+    &lt;span class="label"&gt;message&lt;/span&gt;.BccRecipients[0].EmailAddress = "user4@example.com";
+
+    // Compose e-mail message.
+    &lt;span class="label"&gt;message&lt;/span&gt;.Subject = "High Priority Projects for Q3";
+    &lt;span class="label"&gt;message&lt;/span&gt;.Body = new BodyType();
+    &lt;span class="label"&gt;message&lt;/span&gt;.Body.BodyType1 = BodyTypeType.HTML;
+    &lt;span class="label"&gt;message&lt;/span&gt;.Body.Value = "&amp;lt;html&amp;gt;&amp;lt;body style='font-family: Arial'&amp;gt;&amp;lt;ul&amp;gt;" +
+     "&amp;lt;li&amp;gt;Create budget for next fiscal year.&amp;amp;nbsp;&amp;lt;/li&amp;gt;" + 
+     "&amp;lt;li&amp;gt;Hiring updates.&amp;amp;nbsp;&amp;lt;/li&amp;gt;" + 
+     "&amp;lt;li&amp;gt;Design plan for new facilities.&amp;lt;/li&amp;gt;" + 
+     "&amp;lt;li&amp;gt;Identify new opportunities for operational efficiency.&amp;amp;nbsp;&amp;lt;/li&amp;gt;" +
+     "&amp;lt;/ul&amp;gt;&amp;lt;p&amp;gt;Please provide feedback before the meeting.&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;";
+    &lt;span class="label"&gt;message&lt;/span&gt;.Sensitivity = SensitivityChoicesType.Confidential;
+    &lt;span class="label"&gt;message&lt;/span&gt;.SensitivitySpecified = true;
+    &lt;span class="label"&gt;message&lt;/span&gt;.Categories = new string[2] { "Planning", "FiscalYear_Next" };
+    &lt;span class="label"&gt;message&lt;/span&gt;.Importance = ImportanceChoicesType.High;
+    &lt;span class="label"&gt;message&lt;/span&gt;.ImportanceSpecified = true;
+
+    return &lt;span class="label"&gt;message&lt;/span&gt;;
+}</code>
+        </span>
+      </span>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MessageType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.MessageType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MessageType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="96ea0-104">Le <see cref="T:ExchangeWebServices.MessageType" /> constructeur initialise une nouvelle instance de le <see cref="T:ExchangeWebServices.MessageType" /> classe.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-104">The <see cref="T:ExchangeWebServices.MessageType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.MessageType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BccRecipients">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EmailAddressType[] BccRecipients { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EmailAddressType[] BccRecipients" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MessageType.BccRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public Property BccRecipients As EmailAddressType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::EmailAddressType ^&gt; ^ BccRecipients { cli::array &lt;ExchangeWebServices::EmailAddressType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::EmailAddressType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("Mailbox", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailAddressType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="96ea0-105">Le <see cref="P:ExchangeWebServices.MessageType.BccRecipients" /> propriété obtient ou définit une collection de destinataires qui reçoivent une copie carbone invisible (Cci) d’un message électronique.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-105">The <see cref="P:ExchangeWebServices.MessageType.BccRecipients" /> property gets or sets a collection of recipients that receive a blind carbon copy (Bcc) of an e-mail.</span>
+          </span>
+          <span data-ttu-id="96ea0-106">Cette propriété est facultative.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-106">This property is optional.</span>
+          </span>
+          <span data-ttu-id="96ea0-107">Il s’agit d’une propriété en lecture-écriture.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-107">This is a read/write property.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="96ea0-108">Le <see cref="P:ExchangeWebServices.MessageType.BccRecipients" /> propriété retourne un <see cref="T:ExchangeWebServices.EmailAddressType" /> tableau.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-108">The <see cref="P:ExchangeWebServices.MessageType.BccRecipients" /> property returns an <see cref="T:ExchangeWebServices.EmailAddressType" /> array.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CcRecipients">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EmailAddressType[] CcRecipients { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EmailAddressType[] CcRecipients" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MessageType.CcRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public Property CcRecipients As EmailAddressType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::EmailAddressType ^&gt; ^ CcRecipients { cli::array &lt;ExchangeWebServices::EmailAddressType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::EmailAddressType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("Mailbox", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailAddressType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="96ea0-109">Le <see cref="P:ExchangeWebServices.MessageType.CcRecipients" /> propriété obtient ou définit une collection de destinataires qui reçoivent une copie carbone (Cci) d’un message électronique.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-109">The <see cref="P:ExchangeWebServices.MessageType.CcRecipients" /> property gets or sets a collection of recipients that receive a carbon copy (Bcc) of an e-mail.</span>
+          </span>
+          <span data-ttu-id="96ea0-110">Cette propriété est facultative.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-110">This property is optional.</span>
+          </span>
+          <span data-ttu-id="96ea0-111">Il s’agit d’une propriété en lecture-écriture.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-111">This is a read/write property.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="96ea0-112">Le <see cref="P:ExchangeWebServices.MessageType.CcRecipients" /> propriété retourne un <see cref="T:ExchangeWebServices.EmailAddressType" /> tableau.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-112">The <see cref="P:ExchangeWebServices.MessageType.CcRecipients" /> property returns an <see cref="T:ExchangeWebServices.EmailAddressType" /> array.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationIndex">
+      <MemberSignature Language="C#" Value="public byte[] ConversationIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] ConversationIndex" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MessageType.ConversationIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConversationIndex As Byte()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Byte&gt; ^ ConversationIndex { cli::array &lt;System::Byte&gt; ^ get(); void set(cli::array &lt;System::Byte&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement(DataType="base64Binary")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="96ea0-113">Le <see cref="P:ExchangeWebServices.MessageType.ConversationIndex" /> propriété obtient ou définit l’identificateur à la thread auquel appartient le message.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-113">The <see cref="P:ExchangeWebServices.MessageType.ConversationIndex" /> property gets or sets the identifier to the thread to which the message belongs.</span>
+          </span>
+          <span data-ttu-id="96ea0-114">Cette propriété est facultative.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-114">This property is optional.</span>
+          </span>
+          <span data-ttu-id="96ea0-115">Il s’agit d’une propriété en lecture-écriture.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-115">This is a read/write property.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="96ea0-116">Le <see cref="P:ExchangeWebServices.MessageType.ConversationIndex" /> propriété renvoie un tableau d’octets.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-116">The <see cref="P:ExchangeWebServices.MessageType.ConversationIndex" /> property returns a byte array.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationTopic">
+      <MemberSignature Language="C#" Value="public string ConversationTopic { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ConversationTopic" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MessageType.ConversationTopic" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConversationTopic As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ConversationTopic { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="96ea0-117">Le <see cref="P:ExchangeWebServices.MessageType.ConversationTopic" /> propriété obtient ou définit l’identificateur de la conversation.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-117">The <see cref="P:ExchangeWebServices.MessageType.ConversationTopic" /> property gets or sets the conversation identifier.</span>
+          </span>
+          <span data-ttu-id="96ea0-118">Cette propriété est facultative.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-118">This property is optional.</span>
+          </span>
+          <span data-ttu-id="96ea0-119">Il s’agit d’une propriété en lecture-écriture.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-119">This is a read/write property.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="96ea0-120">Le <see cref="P:ExchangeWebServices.MessageType.ConversationTopic" /> propriété renvoie une chaîne qui représente l’identificateur de la conversation.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-120">The <see cref="P:ExchangeWebServices.MessageType.ConversationTopic" /> property returns a string that represents the conversation identifier.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="From">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SingleRecipientType From { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.SingleRecipientType From" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MessageType.From" />
+      <MemberSignature Language="VB.NET" Value="Public Property From As SingleRecipientType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::SingleRecipientType ^ From { ExchangeWebServices::SingleRecipientType ^ get(); void set(ExchangeWebServices::SingleRecipientType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SingleRecipientType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="96ea0-121">Le <see cref="P:ExchangeWebServices.MessageType.From" /> propriété obtient ou définit le destinataire à partir de laquelle le message a été envoyé.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-121">The <see cref="P:ExchangeWebServices.MessageType.From" /> property gets or sets the addressee from whom the message was sent.</span>
+          </span>
+          <span data-ttu-id="96ea0-122">Cette propriété est facultative.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-122">This property is optional.</span>
+          </span>
+          <span data-ttu-id="96ea0-123">Il s’agit d’une propriété en lecture-écriture.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-123">This is a read/write property.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="96ea0-124">Le <see cref="P:ExchangeWebServices.MessageType.From" /> propriété retourne un <see cref="T:ExchangeWebServices.SingleRecipientType" /> qui représente le destinataire à partir de laquelle le message a été envoyé. Uniquement la propriété Name est renvoyée dans un appel FindItem.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-124">The <see cref="P:ExchangeWebServices.MessageType.From" /> property returns a <see cref="T:ExchangeWebServices.SingleRecipientType" /> that represents the addressee from whom the message was sent.Only the Name property is returned in a FindItem call.</span>
+          </span>
+          <span data-ttu-id="96ea0-125">Appel des propriété n’est pas retournée dans un FindItem de EmailAddress.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-125">The EmailAddress property is not returned in a FindItem call.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InternetMessageId">
+      <MemberSignature Language="C#" Value="public string InternetMessageId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InternetMessageId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MessageType.InternetMessageId" />
+      <MemberSignature Language="VB.NET" Value="Public Property InternetMessageId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InternetMessageId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="96ea0-126">Le <see cref="P:ExchangeWebServices.MessageType.InternetMessageId" /> propriété obtient ou définit l’identificateur de message Internet du message.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-126">The <see cref="P:ExchangeWebServices.MessageType.InternetMessageId" /> property gets or sets the Internet message identifier for the message.</span>
+          </span>
+          <span data-ttu-id="96ea0-127">Cette propriété est facultative.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-127">This property is optional.</span>
+          </span>
+          <span data-ttu-id="96ea0-128">Il s’agit d’une propriété en lecture-écriture.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-128">This is a read/write property.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="96ea0-129">Le <see cref="P:ExchangeWebServices.MessageType.InternetMessageId" /> propriété renvoie une chaîne qui représente l’identificateur de message Internet du message.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-129">The <see cref="P:ExchangeWebServices.MessageType.InternetMessageId" /> property returns a string that represents the Internet message identifier for the message.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDeliveryReceiptRequested">
+      <MemberSignature Language="C#" Value="public bool IsDeliveryReceiptRequested { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDeliveryReceiptRequested" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MessageType.IsDeliveryReceiptRequested" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsDeliveryReceiptRequested As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDeliveryReceiptRequested { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="96ea0-130">Le <see cref="P:ExchangeWebServices.MessageType.IsDeliveryReceiptRequested" /> propriété obtient ou définit une valeur de type Boolean qui indique si l’expéditeur de l’élément demande un accusé de réception.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-130">The <see cref="P:ExchangeWebServices.MessageType.IsDeliveryReceiptRequested" /> property gets or sets a Boolean value that specifies whether the sender of the item requests a delivery receipt.</span>
+          </span>
+          <span data-ttu-id="96ea0-131">Cette propriété est facultative.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-131">This property is optional.</span>
+          </span>
+          <span data-ttu-id="96ea0-132">Il s’agit d’une propriété en lecture-écriture.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-132">This is a read/write property.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="96ea0-133">Le <see cref="P:ExchangeWebServices.MessageType.IsDeliveryReceiptRequested" /> propriété renvoie <b>la valeur true</b> si un accusé de réception est demandé ; dans le cas contraire, la propriété renvoie la <b>valeur false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-133">The <see cref="P:ExchangeWebServices.MessageType.IsDeliveryReceiptRequested" /> property returns <b>true</b> if a delivery receipt is requested; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="96ea0-134">
+            <para>Vous devez définir la <see cref="P:ExchangeWebServices.MessageType.IsDeliveryReceiptRequestedSpecified" /> propriété la <b>valeur true</b> pour que la <see cref="P:ExchangeWebServices.MessageType.IsDeliveryReceiptRequested" /> est de sérialiser la propriété dans la demande SOAP Simple Object Access Protocol ().</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-134">
+              <para>You must set the <see cref="P:ExchangeWebServices.MessageType.IsDeliveryReceiptRequestedSpecified" /> property to <b>true</b> so that the <see cref="P:ExchangeWebServices.MessageType.IsDeliveryReceiptRequested" /> property is serialized into the Simple Object Access Protocol (SOAP) request.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDeliveryReceiptRequestedSpecified">
+      <MemberSignature Language="C#" Value="public bool IsDeliveryReceiptRequestedSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDeliveryReceiptRequestedSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MessageType.IsDeliveryReceiptRequestedSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsDeliveryReceiptRequestedSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDeliveryReceiptRequestedSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="96ea0-135">Le <see cref="P:ExchangeWebServices.MessageType.IsDeliveryReceiptRequestedSpecified" /> propriété obtient ou définit une valeur de type Boolean qui indique si les <see cref="P:ExchangeWebServices.MessageType.IsDeliveryReceiptRequested" /> est de sérialiser la propriété dans la demande SOAP Simple Object Access Protocol ().</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-135">The <see cref="P:ExchangeWebServices.MessageType.IsDeliveryReceiptRequestedSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.MessageType.IsDeliveryReceiptRequested" /> property is serialized into the Simple Object Access Protocol (SOAP) request.</span>
+          </span>
+          <span data-ttu-id="96ea0-136">Cette propriété est requise si le <see cref="P:ExchangeWebServices.MessageType.IsDeliveryReceiptRequested" /> propriété est spécifiée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-136">This property is required if the <see cref="P:ExchangeWebServices.MessageType.IsDeliveryReceiptRequested" /> property is specified.</span>
+          </span>
+          <span data-ttu-id="96ea0-137">Il s’agit d’une propriété en lecture-écriture.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-137">This is a read/write property.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="96ea0-138">Le <see cref="P:ExchangeWebServices.MessageType.IsDeliveryReceiptRequestedSpecified" /> propriété renvoie <b>la valeur true</b> si les <see cref="P:ExchangeWebServices.MessageType.IsDeliveryReceiptRequested" /> est de sérialiser la propriété dans la demande SOAP. dans le cas contraire, la propriété renvoie la <b>valeur false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-138">The <see cref="P:ExchangeWebServices.MessageType.IsDeliveryReceiptRequestedSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.MessageType.IsDeliveryReceiptRequested" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsRead">
+      <MemberSignature Language="C#" Value="public bool IsRead { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsRead" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MessageType.IsRead" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsRead As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsRead { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="96ea0-139">Le <see cref="P:ExchangeWebServices.MessageType.IsRead" /> propriété obtient une valeur de type Boolean qui indique si le message a été lu.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-139">The <see cref="P:ExchangeWebServices.MessageType.IsRead" /> property gets a Boolean value that specifies whether the message has been read.</span>
+          </span>
+          <span data-ttu-id="96ea0-140">Cette propriété est en lecture seule.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-140">This property is read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="96ea0-141">Le <see cref="P:ExchangeWebServices.MessageType.IsRead" /> propriété retourne <b>la valeur true</b> si le message a été lu ; dans le cas contraire, la propriété renvoie la <b>valeur false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-141">The <see cref="P:ExchangeWebServices.MessageType.IsRead" /> property returns <b>true</b> if the message has been read; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="96ea0-142">
+            <para>Cette propriété est retournée dans une réponse qui décrit un message. Cette propriété ne peut pas être définie pour une demande. Une erreur se produit si cette propriété est définie dans une requête.</para>
+            <para>Vous devez définir la <see cref="P:ExchangeWebServices.MessageType.IsReadSpecified" /> propriété la <b>valeur true</b> pour que la <see cref="P:ExchangeWebServices.MessageType.IsRead" /> est de sérialiser la propriété dans la demande SOAP Simple Object Access Protocol ().</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-142">
+              <para>This property is returned in a response that describes a message. This property cannot be set for a request. An error will occur if this property is set in a request.</para>
+              <para>You must set the <see cref="P:ExchangeWebServices.MessageType.IsReadSpecified" /> property to <b>true</b> so that the <see cref="P:ExchangeWebServices.MessageType.IsRead" /> property is serialized into the Simple Object Access Protocol (SOAP) request.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsReadReceiptRequested">
+      <MemberSignature Language="C#" Value="public bool IsReadReceiptRequested { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsReadReceiptRequested" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MessageType.IsReadReceiptRequested" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsReadReceiptRequested As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReadReceiptRequested { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="96ea0-143">Le <see cref="P:ExchangeWebServices.MessageType.IsReadReceiptRequested" /> propriété obtient ou définit une valeur de type Boolean qui indique si l’expéditeur d’un message de demande une confirmation de lecture.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-143">The <see cref="P:ExchangeWebServices.MessageType.IsReadReceiptRequested" /> property gets or sets a Boolean value that specifies whether the sender of a message requests a read receipt.</span>
+          </span>
+          <span data-ttu-id="96ea0-144">Cette propriété est facultative.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-144">This property is optional.</span>
+          </span>
+          <span data-ttu-id="96ea0-145">Il s’agit d’une propriété en lecture-écriture.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-145">This is a read/write property.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="96ea0-146">Le <see cref="P:ExchangeWebServices.MessageType.IsReadReceiptRequested" /> renvoie <b>la valeur true</b> si une confirmation de lecture est demandée ; dans le cas contraire, la propriété renvoie la <b>valeur false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-146">The <see cref="P:ExchangeWebServices.MessageType.IsReadReceiptRequested" /> returns <b>true</b> if a read receipt is requested; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="96ea0-147">
+            <para>Vous devez définir la <see cref="P:ExchangeWebServices.MessageType.IsReadReceiptRequestedSpecified" /> propriété la <b>valeur true</b> pour que la <see cref="P:ExchangeWebServices.MessageType.IsDeliveryReceiptRequested" /> est sérialisée dans la demande SOAP Simple Object Access Protocol ().</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-147">
+              <para>You must set the <see cref="P:ExchangeWebServices.MessageType.IsReadReceiptRequestedSpecified" /> property to <b>true</b> so that the <see cref="P:ExchangeWebServices.MessageType.IsDeliveryReceiptRequested" /> is serialized into the Simple Object Access Protocol (SOAP) request.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsReadReceiptRequestedSpecified">
+      <MemberSignature Language="C#" Value="public bool IsReadReceiptRequestedSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsReadReceiptRequestedSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MessageType.IsReadReceiptRequestedSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsReadReceiptRequestedSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReadReceiptRequestedSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="96ea0-148">Le <see cref="P:ExchangeWebServices.MessageType.IsReadReceiptRequestedSpecified" /> propriété obtient ou définit une valeur de type Boolean qui indique si les <see cref="P:ExchangeWebServices.MessageType.IsDeliveryReceiptRequested" /> est de sérialiser la propriété dans la demande SOAP Simple Object Access Protocol ().</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-148">The <see cref="P:ExchangeWebServices.MessageType.IsReadReceiptRequestedSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.MessageType.IsDeliveryReceiptRequested" /> property is serialized into the Simple Object Access Protocol (SOAP) request.</span>
+          </span>
+          <span data-ttu-id="96ea0-149">Cette propriété est requise si le <see cref="P:ExchangeWebServices.MessageType.IsReadReceiptRequested" /> propriété est spécifiée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-149">This property is required if the <see cref="P:ExchangeWebServices.MessageType.IsReadReceiptRequested" /> property is specified.</span>
+          </span>
+          <span data-ttu-id="96ea0-150">Il s’agit d’une propriété en lecture-écriture.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-150">This is a read/write property.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="96ea0-151">Le <see cref="P:ExchangeWebServices.MessageType.IsReadReceiptRequestedSpecified" /> propriété renvoie <b>la valeur true</b> si les <see cref="P:ExchangeWebServices.MessageType.IsReadReceiptRequested" /> est de sérialiser la propriété dans la demande SOAP. dans le cas contraire, la propriété renvoie la <b>valeur false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-151">The <see cref="P:ExchangeWebServices.MessageType.IsReadReceiptRequestedSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.MessageType.IsReadReceiptRequested" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsReadSpecified">
+      <MemberSignature Language="C#" Value="public bool IsReadSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsReadSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MessageType.IsReadSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsReadSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReadSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="96ea0-152">Le <see cref="P:ExchangeWebServices.MessageType.IsReadSpecified" /> propriété obtient ou définit une valeur de type Boolean qui indique si les <see cref="P:ExchangeWebServices.MessageType.IsRead" /> est de sérialiser la propriété dans la demande SOAP Simple Object Access Protocol ().</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-152">The <see cref="P:ExchangeWebServices.MessageType.IsReadSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.MessageType.IsRead" /> property is serialized into the Simple Object Access Protocol (SOAP) request.</span>
+          </span>
+          <span data-ttu-id="96ea0-153">Cette propriété est requise si le <see cref="P:ExchangeWebServices.MessageType.IsRead" /> propriété est spécifiée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-153">This property is required if the <see cref="P:ExchangeWebServices.MessageType.IsRead" /> property is specified.</span>
+          </span>
+          <span data-ttu-id="96ea0-154">Il s’agit d’une propriété en lecture-écriture.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-154">This is a read/write property.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="96ea0-155">Le <see cref="P:ExchangeWebServices.MessageType.IsReadSpecified" /> propriété renvoie <b>la valeur true</b> si les <see cref="P:ExchangeWebServices.MessageType.IsRead" /> est de sérialiser la propriété dans la demande SOAP. dans le cas contraire, la propriété renvoie la <b>valeur false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-155">The <see cref="P:ExchangeWebServices.MessageType.IsReadSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.MessageType.IsRead" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsResponseRequested">
+      <MemberSignature Language="C#" Value="public bool IsResponseRequested { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsResponseRequested" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MessageType.IsResponseRequested" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsResponseRequested As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsResponseRequested { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="96ea0-156">Le <see cref="P:ExchangeWebServices.MessageType.IsResponseRequested" /> propriété obtient ou définit une valeur de type Boolean qui indique si une réponse à un message électronique est demandée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-156">The <see cref="P:ExchangeWebServices.MessageType.IsResponseRequested" /> property gets or sets a Boolean value that specifies whether a response to an e-mail is requested.</span>
+          </span>
+          <span data-ttu-id="96ea0-157">Cette propriété est facultative.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-157">This property is optional.</span>
+          </span>
+          <span data-ttu-id="96ea0-158">Il s’agit d’une propriété en lecture-écriture.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-158">This is a read/write property.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="96ea0-159">Le <see cref="P:ExchangeWebServices.MessageType.IsResponseRequested" /> renvoie <b>la valeur true</b> si une réponse est demandée ; dans le cas contraire, la propriété renvoie la <b>valeur false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-159">The <see cref="P:ExchangeWebServices.MessageType.IsResponseRequested" /> returns <b>true</b> if a response is requested; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="96ea0-160">
+            <para>Vous devez définir la <see cref="P:ExchangeWebServices.MessageType.IsResponseRequestedSpecified" /> propriété la <b>valeur true</b> pour que la <see cref="P:ExchangeWebServices.MessageType.IsResponseRequested" /> est de sérialiser la propriété dans la demande SOAP Simple Object Access Protocol ().</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-160">
+              <para>You must set the <see cref="P:ExchangeWebServices.MessageType.IsResponseRequestedSpecified" /> property to <b>true</b> so that the <see cref="P:ExchangeWebServices.MessageType.IsResponseRequested" /> property is serialized into the Simple Object Access Protocol (SOAP) request.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsResponseRequestedSpecified">
+      <MemberSignature Language="C#" Value="public bool IsResponseRequestedSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsResponseRequestedSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MessageType.IsResponseRequestedSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsResponseRequestedSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsResponseRequestedSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="96ea0-161">Le <see cref="P:ExchangeWebServices.MessageType.IsResponseRequestedSpecified" /> propriété obtient ou définit une valeur de type Boolean qui indique si les <see cref="P:ExchangeWebServices.MessageType.IsResponseRequested" /> est de sérialiser la propriété dans la demande SOAP Simple Object Access Protocol ().</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-161">The <see cref="P:ExchangeWebServices.MessageType.IsResponseRequestedSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.MessageType.IsResponseRequested" /> property is serialized into the Simple Object Access Protocol (SOAP) request.</span>
+          </span>
+          <span data-ttu-id="96ea0-162">Cette propriété est requise si le <see cref="P:ExchangeWebServices.MessageType.IsResponseRequested" /> propriété est spécifiée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-162">This property is required if the <see cref="P:ExchangeWebServices.MessageType.IsResponseRequested" /> property is specified.</span>
+          </span>
+          <span data-ttu-id="96ea0-163">Il s’agit d’une propriété en lecture-écriture.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-163">This is a read/write property.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="96ea0-164">Le <see cref="P:ExchangeWebServices.MessageType.IsResponseRequestedSpecified" /> propriété renvoie <b>la valeur true</b> si les <see cref="P:ExchangeWebServices.MessageType.IsResponseRequested" /> est de sérialiser la propriété dans la demande SOAP. dans le cas contraire, la propriété renvoie la <b>valeur false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-164">The <see cref="P:ExchangeWebServices.MessageType.IsResponseRequestedSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.MessageType.IsResponseRequested" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReceivedBy">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SingleRecipientType ReceivedBy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.SingleRecipientType ReceivedBy" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MessageType.ReceivedBy" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReceivedBy As SingleRecipientType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::SingleRecipientType ^ ReceivedBy { ExchangeWebServices::SingleRecipientType ^ get(); void set(ExchangeWebServices::SingleRecipientType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SingleRecipientType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReceivedRepresenting">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SingleRecipientType ReceivedRepresenting { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.SingleRecipientType ReceivedRepresenting" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MessageType.ReceivedRepresenting" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReceivedRepresenting As SingleRecipientType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::SingleRecipientType ^ ReceivedRepresenting { ExchangeWebServices::SingleRecipientType ^ get(); void set(ExchangeWebServices::SingleRecipientType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SingleRecipientType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="References">
+      <MemberSignature Language="C#" Value="public string References { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string References" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MessageType.References" />
+      <MemberSignature Language="VB.NET" Value="Public Property References As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ References { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="96ea0-165">Le <see cref="P:ExchangeWebServices.MessageType.References" /> propriété obtient ou définit une valeur string qui représente l’en-tête Usenet qui est utilisé pour faire correspondre des réponses à leur message d’origine.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-165">The <see cref="P:ExchangeWebServices.MessageType.References" /> property gets or sets a string that represents the Usenet header that is used to correlate replies with their original message.</span>
+          </span>
+          <span data-ttu-id="96ea0-166">Cette propriété est facultative.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-166">This property is optional.</span>
+          </span>
+          <span data-ttu-id="96ea0-167">Il s’agit d’une propriété en lecture-écriture.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-167">This is a read/write property.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="96ea0-168">Le <see cref="P:ExchangeWebServices.MessageType.References" /> propriété renvoie une chaîne qui représente un en-tête Usenet.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-168">The <see cref="P:ExchangeWebServices.MessageType.References" /> property returns a string that represents a Usenet header.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReplyTo">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EmailAddressType[] ReplyTo { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EmailAddressType[] ReplyTo" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MessageType.ReplyTo" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReplyTo As EmailAddressType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::EmailAddressType ^&gt; ^ ReplyTo { cli::array &lt;ExchangeWebServices::EmailAddressType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::EmailAddressType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("Mailbox", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailAddressType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="96ea0-169">Le <see cref="P:ExchangeWebServices.MessageType.ReplyTo" /> propriété obtient ou définit une collection d’adresses à laquelle les réponses doivent être envoyées.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-169">The <see cref="P:ExchangeWebServices.MessageType.ReplyTo" /> property gets or sets a collection of addresses to which replies should be sent.</span>
+          </span>
+          <span data-ttu-id="96ea0-170">Cette propriété est facultative.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-170">This property is optional.</span>
+          </span>
+          <span data-ttu-id="96ea0-171">Il s’agit d’une propriété en lecture-écriture.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-171">This is a read/write property.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="96ea0-172">Le <see cref="P:ExchangeWebServices.MessageType.ReplyTo" /> propriété retourne un <see cref="T:ExchangeWebServices.EmailAddressType" /> tableau qui contient un ensemble d’adresses à laquelle les réponses doivent être envoyées.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-172">The <see cref="P:ExchangeWebServices.MessageType.ReplyTo" /> property returns an <see cref="T:ExchangeWebServices.EmailAddressType" /> array that contains a set of addresses to which replies should be sent.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sender">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SingleRecipientType Sender { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.SingleRecipientType Sender" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MessageType.Sender" />
+      <MemberSignature Language="VB.NET" Value="Public Property Sender As SingleRecipientType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::SingleRecipientType ^ Sender { ExchangeWebServices::SingleRecipientType ^ get(); void set(ExchangeWebServices::SingleRecipientType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SingleRecipientType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="96ea0-173">Le <see cref="P:ExchangeWebServices.MessageType.Sender" /> propriété obtient ou définit l’expéditeur d’un message.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-173">The <see cref="P:ExchangeWebServices.MessageType.Sender" /> property gets or sets the sender of a message.</span>
+          </span>
+          <span data-ttu-id="96ea0-174">Cette propriété est facultative.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-174">This property is optional.</span>
+          </span>
+          <span data-ttu-id="96ea0-175">Il s’agit d’une propriété en lecture-écriture.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-175">This is a read/write property.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="96ea0-176">Le <see cref="P:ExchangeWebServices.MessageType.Sender" /> propriété retourne un <see cref="T:ExchangeWebServices.SingleRecipientType" /> objet. Uniquement la propriété Name est renvoyée dans un appel FindItem.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-176">The <see cref="P:ExchangeWebServices.MessageType.Sender" /> property returns a <see cref="T:ExchangeWebServices.SingleRecipientType" /> object.Only the Name property is returned in a FindItem call.</span>
+          </span>
+          <span data-ttu-id="96ea0-177">Appel des propriété n’est pas retournée dans un FindItem de EmailAddress.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-177">The EmailAddress property is not returned in a FindItem call.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToRecipients">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EmailAddressType[] ToRecipients { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EmailAddressType[] ToRecipients" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MessageType.ToRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public Property ToRecipients As EmailAddressType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::EmailAddressType ^&gt; ^ ToRecipients { cli::array &lt;ExchangeWebServices::EmailAddressType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::EmailAddressType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("Mailbox", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailAddressType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="96ea0-178">Le <see cref="P:ExchangeWebServices.MessageType.ToRecipients" /> propriété obtient ou définit une collection de destinataires d’un message électronique.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-178">The <see cref="P:ExchangeWebServices.MessageType.ToRecipients" /> property gets or sets a collection of recipients of an e-mail.</span>
+          </span>
+          <span data-ttu-id="96ea0-179">Cette propriété est requise pour l’envoi d’un message.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-179">This property is required for sending a message.</span>
+          </span>
+          <span data-ttu-id="96ea0-180">Il s’agit d’une propriété en lecture-écriture.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-180">This is a read/write property.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="96ea0-181">Le <see cref="P:ExchangeWebServices.MessageType.ToRecipients" /> propriété retourne un <see cref="T:ExchangeWebServices.EmailAddressType" /> tableau qui contient un ensemble d’adresses de messagerie sont envoyés.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96ea0-181">The <see cref="P:ExchangeWebServices.MessageType.ToRecipients" /> property returns an <see cref="T:ExchangeWebServices.EmailAddressType" /> array that contains a set of addresses to which e-mail are sent.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

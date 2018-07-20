@@ -1,0 +1,244 @@
+<Type Name="ItemsChoiceType" FullName="ExchangeWebServices.ItemsChoiceType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="357f79ac30af98212239f1aa438a58c2fec77d93" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20604115" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum ItemsChoiceType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed ItemsChoiceType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ItemsChoiceType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ItemsChoiceType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ItemsChoiceType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(IncludeInSchema=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="0c1f1-101">Le <see cref="T:ExchangeWebServices.ItemsChoiceType" /> énumération identifie le type d’événement pour chaque événement qui est retournée dans une notification.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="0c1f1-101">The <see cref="T:ExchangeWebServices.ItemsChoiceType" /> enumeration identifies the event type for each event that is returned in a notification.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="0c1f1-102">
+        <para>Cette énumération est utilisée par la <see cref="P:ExchangeWebServices.NotificationType.ItemsElementName" /> propriété de la <see cref="T:ExchangeWebServices.NotificationType" /> type.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="0c1f1-102">
+          <para>This enumeration is used by the <see cref="P:ExchangeWebServices.NotificationType.ItemsElementName" /> property of the <see cref="T:ExchangeWebServices.NotificationType" /> type.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CopiedEvent">
+      <MemberSignature Language="C#" Value="CopiedEvent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType CopiedEvent = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType.CopiedEvent" />
+      <MemberSignature Language="VB.NET" Value="CopiedEvent" />
+      <MemberSignature Language="C++ CLI" Value="CopiedEvent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0c1f1-103">Représente un événement dans lequel un élément ou un dossier est copié.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c1f1-103">Represents an event in which an item or folder is copied.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CreatedEvent">
+      <MemberSignature Language="C#" Value="CreatedEvent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType CreatedEvent = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType.CreatedEvent" />
+      <MemberSignature Language="VB.NET" Value="CreatedEvent" />
+      <MemberSignature Language="C++ CLI" Value="CreatedEvent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0c1f1-104">Représente un événement dans lequel un élément ou un dossier est créé.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c1f1-104">Represents an event in which an item or folder is created.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DeletedEvent">
+      <MemberSignature Language="C#" Value="DeletedEvent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType DeletedEvent = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType.DeletedEvent" />
+      <MemberSignature Language="VB.NET" Value="DeletedEvent" />
+      <MemberSignature Language="C++ CLI" Value="DeletedEvent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0c1f1-105">Représente un événement dans lequel un élément ou un dossier est supprimé.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c1f1-105">Represents an event in which an item or folder is deleted.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FreeBusyChangedEvent">
+      <MemberSignature Language="C#" Value="FreeBusyChangedEvent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType FreeBusyChangedEvent = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType.FreeBusyChangedEvent" />
+      <MemberSignature Language="VB.NET" Value="FreeBusyChangedEvent" />
+      <MemberSignature Language="C++ CLI" Value="FreeBusyChangedEvent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0c1f1-106">Représente une notification indiquant que la période libre occupé (e) a été modifiée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c1f1-106">Represents a notification that the free busy time has changed.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ModifiedEvent">
+      <MemberSignature Language="C#" Value="ModifiedEvent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType ModifiedEvent = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType.ModifiedEvent" />
+      <MemberSignature Language="VB.NET" Value="ModifiedEvent" />
+      <MemberSignature Language="C++ CLI" Value="ModifiedEvent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0c1f1-107">Représente un événement auquel un élément ou un dossier est modifiée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c1f1-107">Represents an event in which an item or folder is modified.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MovedEvent">
+      <MemberSignature Language="C#" Value="MovedEvent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType MovedEvent = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType.MovedEvent" />
+      <MemberSignature Language="VB.NET" Value="MovedEvent" />
+      <MemberSignature Language="C++ CLI" Value="MovedEvent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0c1f1-108">Représente un événement dans lequel un élément ou un dossier est déplacé d’un dossier parent à un autre dossier parent.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c1f1-108">Represents an event in which an item or folder is moved from one parent folder to another parent folder.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NewMailEvent">
+      <MemberSignature Language="C#" Value="NewMailEvent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType NewMailEvent = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType.NewMailEvent" />
+      <MemberSignature Language="VB.NET" Value="NewMailEvent" />
+      <MemberSignature Language="C++ CLI" Value="NewMailEvent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0c1f1-109">Représente un événement qui est déclenché par un nouvel élément de messagerie dans une boîte aux lettres.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c1f1-109">Represents an event that is triggered by a new mail item in a mailbox.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="StatusEvent">
+      <MemberSignature Language="C#" Value="StatusEvent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType StatusEvent = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType.StatusEvent" />
+      <MemberSignature Language="VB.NET" Value="StatusEvent" />
+      <MemberSignature Language="C++ CLI" Value="StatusEvent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0c1f1-110">Représente une notification qu’aucune nouvelle activité se n’est produite dans la boîte aux lettres.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c1f1-110">Represents a notification that no new activity has occurred in the mailbox.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
